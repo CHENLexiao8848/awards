@@ -1,0 +1,19 @@
+Four JSP Lean formalizations
+
+Submission and organization: CHEN LEXIAO (GitHub: CHENLexiao8848).
+The Lean implementation, verification tooling, and submission documentation were
+developed with substantial AI assistance through Codex. The submitter organized
+the work, selected the targets, requested verification, and authorized submission.
+This attribution does not assert that the submitter personally wrote every proof
+term or originated the underlying mathematical results.
+
+The original contributions in this package are made available under Apache-2.0.
+The standard Apache license text is in LICENSE. This license does not relicense
+the cited literature, external Lean developments, or dependencies; those retain
+their respective authorship and license terms. No third-party source snapshots
+are bundled here. Mathematical sources and prior formalizations are identified
+in README.md and CONTRIBUTIONS.md.
+
+Mathematical attribution includes the published powerful-number counterexample,
+Ruiliang Li's 9-vertex hypergraph, Stijn Cambie's non-unimodality result, and the
+Alon-Erdos sampling-and-deletion method. See the linked sources for full credits.
