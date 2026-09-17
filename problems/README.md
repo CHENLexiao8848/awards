@@ -8,11 +8,17 @@ Problems are numbered consecutively and grouped into volumes of 100 records (22 
 
 Some dates are explicitly marked as assumptions or pending confirmation. Formal nominations and award records remain in [candidates/](../candidates/README.md) and [awards/](../awards/README.md).
 
+**Submission requirements:** only complete solutions to the original problem are
+accepted. Partial mathematical progress and incomplete Lean formalizations are not
+eligible for submission. Existing historical progress notes do not change this
+requirement. See the [contribution guidelines](../CONTRIBUTING.md#external-solver-and-lean-submissions).
+
 ## Disclaimer and corrections
 
 Information in this problem bank—including problem descriptions, dates, solution status, contributor attributions, Lean proof records, historical bounties, and references—is compiled from publicly available online sources and the project's summaries and assessments of those sources. It is provided for reference and may contain errors, omissions, or outdated information. Inclusion does not by itself constitute independent verification of a result or confirmation of an award or entitlement to payment.
 
 If you find inaccurate, incomplete, or outdated information, please contact the maintainers by [opening a correction issue](https://github.com/TheJustinSunPrize/awards/issues/new?template=correction.yml). Include the JSP identifier, the information in question, your proposed correction, and supporting public sources so the record can be reviewed and corrected.
+
 
 ## Reading conventions
 
@@ -951,7 +957,7 @@ The **No.** column runs consecutively from **JSP-000001** to **JSP-001022** in d
 | JSP-000835 | [Are there infinitely many consecutive positive integers with equal totients?](catalog-0801-0900.md#JSP-000835) | Progress | No | No | Unavailable |
 | JSP-000836 | [How long a consecutive-integer interval can have pairwise distinct totient values?](catalog-0801-0900.md#JSP-000836) | Progress | No | No | Unavailable |
 | JSP-000837 | [How far can local Farey-sequence segments extend when numerators and denominators vary in the same direction?](catalog-0801-0900.md#JSP-000837) | Solved | No | No | Unavailable |
-| JSP-000838 | [Can every graph without triangles or four-cycles be acyclically oriented so that reversing any single edge still leaves it acyclic?](catalog-0801-0900.md#JSP-000838) | Solved | Yes (kernel checked; independent review requested) | Pending verification | Unavailable |
+| JSP-000838 | [Can every graph without triangles or four-cycles be acyclically oriented so that reversing any single edge still leaves it acyclic?](catalog-0801-0900.md#JSP-000838) | Solved | No | No | Unavailable |
 | JSP-000839 | [Just above the maximum bipartite edge count, how many edge-disjoint triangles are guaranteed?](catalog-0801-0900.md#JSP-000839) | Solved | No | No | Unavailable |
 | JSP-000840 | [How many triangles must a graph have once its edge count exceeds the maximum bipartite edge count?](catalog-0801-0900.md#JSP-000840) | Solved | No | No | Unavailable |
 | JSP-000841 | [Under a high-chromatic-number condition, how many edges force a triangle?](catalog-0801-0900.md#JSP-000841) | Progress | No | No | Unavailable |
