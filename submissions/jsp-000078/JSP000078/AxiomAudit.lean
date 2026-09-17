@@ -1,0 +1,11 @@
+import JSP000078.Sharpness
+import JSP000078.GyarfasLemmaOne
+
+#print axioms JSP000078.chromaticNumber_le_two_mul_oddCycleLengths_card_add_two
+#print axioms JSP000078.colorable_of_card_oddCycleLengths_le
+#print axioms JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq
+#print axioms JSP000078.isBipartite_iff_oddCycleLengths_eq_empty
+#print axioms JSP000078.card_oddCycleLengths_ge_of_chromaticNumber_eq
+#print axioms JSP000078.oddCycleLengths_bound_sharp
+#print axioms JSP000078.historicalCycleLinking
+#print axioms JSP000078.outside_odd_cycle_length_lt_longest

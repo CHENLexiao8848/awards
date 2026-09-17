@@ -1,0 +1,127 @@
+[
+  {
+    "file": "JSP000078/AxiomAudit.lean",
+    "sha256": "e6dd8ce46c139a8916a1792e81f7361bb0eda43084ce08387cabec9d075f1fcd",
+    "bytes": 566
+  },
+  {
+    "file": "JSP000078/Basic.lean",
+    "sha256": "c87f6118356e86149e53851188ac017806111342656691c1d123d5b255cfbc5f",
+    "bytes": 1437
+  },
+  {
+    "file": "JSP000078/Coloring.lean",
+    "sha256": "0529d8976235e5be4f6b1d98493ada98afc6e8cc0188270439be1bc34342ae51",
+    "bytes": 2550
+  },
+  {
+    "file": "JSP000078/CycleArcs.lean",
+    "sha256": "8977b3573212fdc32d8162d27875a70684b7116afb8c1fbbc14a9de90601f84c",
+    "bytes": 3281
+  },
+  {
+    "file": "JSP000078/CycleLinking.lean",
+    "sha256": "cacbb8f2d8559e913d23390d9f85151c548290f2eeff297aad61103495df34d3",
+    "bytes": 2228
+  },
+  {
+    "file": "JSP000078/DepthFirst.lean",
+    "sha256": "7b30be87a2f441d777eea818c71c230373bd883755a4a028b1e73e75a61c8595",
+    "bytes": 5227
+  },
+  {
+    "file": "JSP000078/GyarfasLemmaOne.lean",
+    "sha256": "5081fc4c325f9ec8f7803f8e34f19ed5a2e9c042799fde56a5ae09b31b0568ce",
+    "bytes": 1414
+  },
+  {
+    "file": "JSP000078/HistoricalLinking.lean",
+    "sha256": "986f44759d5f77e1087ebb30e4247fece73be05004ee2c79d6817c7de9c93239",
+    "bytes": 2373
+  },
+  {
+    "file": "JSP000078/HistoricalSpec.lean",
+    "sha256": "5fb923410f3f0804d69b1a02999e00f6a3537b61e5245044258d717a476e567e",
+    "bytes": 2184
+  },
+  {
+    "file": "JSP000078/InitialLinkage.lean",
+    "sha256": "58a2b38c6104a904dde9e266f8843f962086a89f3ec5050ee65d914ed105cc1c",
+    "bytes": 2177
+  },
+  {
+    "file": "JSP000078/Linkage.lean",
+    "sha256": "5405f7f36f33bef48925fb2c1b8fb8223e44b82bae22cd4041525debdcb1b685",
+    "bytes": 7056
+  },
+  {
+    "file": "JSP000078/LinkageConnector.lean",
+    "sha256": "231717c2d7b5599717b121d8e18ec44bd328e67804e8969a02e2c77e700aa1f5",
+    "bytes": 4159
+  },
+  {
+    "file": "JSP000078/LinkageReroute.lean",
+    "sha256": "d9297a1f0c53b6a5cfb433c4ccb24a86273b75c1a35e106bd8b01bd43a6df7c9",
+    "bytes": 3276
+  },
+  {
+    "file": "JSP000078/LongestOddCycle.lean",
+    "sha256": "282a347d22bf2c5d86345a448d40b1628b9b5eabf9d8979ce4f9a30834579452",
+    "bytes": 976
+  },
+  {
+    "file": "JSP000078/Main.lean",
+    "sha256": "77d926645b3a3b8755ad274b383aa0a694dc1bf91a1f1b77d9fa1e23c325f3e0",
+    "bytes": 2914
+  },
+  {
+    "file": "JSP000078/MathlibBridge.lean",
+    "sha256": "5e56853caf80d3b4393f85a7ecc47361b06d46efe85b9fe2deb792c9f80ea531",
+    "bytes": 4179
+  },
+  {
+    "file": "JSP000078/OddCycleSplice.lean",
+    "sha256": "a0cea58513e9216d3d95f630340a9efd11d0d7cc1cca30e819202ca04f0b49f7",
+    "bytes": 6326
+  },
+  {
+    "file": "JSP000078/OddCycles.lean",
+    "sha256": "a36a47d8b3d2289516f0477cdc039344c1dfdc991c670e64fd65f25d98201cf5",
+    "bytes": 4099
+  },
+  {
+    "file": "JSP000078/Parity.lean",
+    "sha256": "dc82a59ad72a29ce0499653058fc8f1d90f99c1634f2b4a378c2119902cb2f94",
+    "bytes": 1824
+  },
+  {
+    "file": "JSP000078/PathGluing.lean",
+    "sha256": "5bba47276a0aadcf25d6ef1b14bd42cc7c77ea096a09abfaeb23a53c00476e87",
+    "bytes": 5634
+  },
+  {
+    "file": "JSP000078/PathSplit.lean",
+    "sha256": "516412620d1495b020cb79a601b3a6063d015903f7609d25491383479e7ff9f3",
+    "bytes": 2762
+  },
+  {
+    "file": "JSP000078/PathTrimming.lean",
+    "sha256": "7567c26958c290f8abfff120e4be6bc2def6b95d138f2d959ff3fc3700437900",
+    "bytes": 2793
+  },
+  {
+    "file": "JSP000078/Sharpness.lean",
+    "sha256": "848e4478cca941f70836822691659f0cf7a4fb41979a8c5c2c0d24caeaadb3ee",
+    "bytes": 2504
+  },
+  {
+    "file": "JSP000078.lean",
+    "sha256": "b1f5ce52a9619c55a355f4cf8ad04edcf0085f1815887f2c067532fb58710f45",
+    "bytes": 142
+  },
+  {
+    "file": "Audit.lean",
+    "sha256": "ffb553f2320d6b410e50761a78e30daa3a70e40d76dc51a8cca1ef3e0bd410dc",
+    "bytes": 395
+  }
+]

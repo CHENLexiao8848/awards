@@ -1,0 +1,10 @@
+@JSP000078.mem_oddCycleLengths : ∀ {V : Type u_1} [inst : Fintype V] (G : SimpleGraph V) {n : ℕ},
+  n ∈ JSP000078.oddCycleLengths G ↔ Odd n ∧ ∃ v p, p.IsCycle ∧ p.length = n
+@JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq : ∀ {V : Type u_1} [inst : Fintype V] (G : SimpleGraph V)
+  (k : ℕ), (JSP000078.oddCycleLengths G).card = k → G.chromaticNumber ≤ ↑(2 * k + 2)
+JSP000078.oddCycleLengths_bound_sharp : ∀ (k : ℕ),
+  ∃ G, (JSP000078.oddCycleLengths G).card = k ∧ G.chromaticNumber = ↑(2 * k + 2)
+'JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000078.oddCycleLengths_bound_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000078.historicalCycleLinking' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000078.outside_odd_cycle_length_lt_longest' depends on axioms: [propext, Classical.choice, Quot.sound]

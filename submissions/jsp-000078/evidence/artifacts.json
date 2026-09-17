@@ -1,0 +1,32 @@
+[
+  {
+    "id": "JSP-000078-local-axioms-and-types.log",
+    "path": "evidence/axioms-and-types.log",
+    "sha256": "f57095e97430bfa00fd2d46c159b5e5ade24b05c547b3e1b840416a7e4726027",
+    "bytes": 957
+  },
+  {
+    "id": "JSP-000078-local-lake-build.log",
+    "path": "evidence/lake-build.log",
+    "sha256": "710d920c4caa09f2d3788d8fd11a0d51f1033ed0dd5240ba0cb29731376eef51",
+    "bytes": 2432
+  },
+  {
+    "id": "JSP-000078-local-main-check.log",
+    "path": "evidence/main-check.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "id": "JSP-000078-local-placeholder-scan.txt",
+    "path": "evidence/placeholder-scan.txt",
+    "sha256": "5f2c3fb39a7e9cd703ace1e249a071b5a5722e80ddf947134acd1387c144a085",
+    "bytes": 250
+  },
+  {
+    "id": "JSP-000078-local-source-manifest.json",
+    "path": "evidence/source-manifest.json",
+    "sha256": "c8747f0c5efa1d94e8d6fbf43b00576cee5df31c220fe9eb36969712353087ff",
+    "bytes": 3745
+  }
+]

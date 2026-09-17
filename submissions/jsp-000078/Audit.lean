@@ -1,0 +1,9 @@
+import JSP000078
+
+#check @JSP000078.mem_oddCycleLengths
+#check @JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq
+#check @JSP000078.oddCycleLengths_bound_sharp
+#print axioms JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq
+#print axioms JSP000078.oddCycleLengths_bound_sharp
+#print axioms JSP000078.historicalCycleLinking
+#print axioms JSP000078.outside_odd_cycle_length_lt_longest

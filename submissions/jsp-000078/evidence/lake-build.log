@@ -1,0 +1,35 @@
+✔ [1213/1237] Built JSP000078.Basic (120s)
+✔ [1214/1237] Built JSP000078.HistoricalSpec (119s)
+✔ [1215/1237] Built JSP000078.PathTrimming (119s)
+✔ [1216/1237] Built JSP000078.PathGluing (119s)
+✔ [1217/1237] Built JSP000078.DepthFirst (128s)
+✔ [1218/1237] Built JSP000078.Parity (129s)
+✔ [1219/1237] Built JSP000078.CycleArcs (179s)
+✔ [1220/1237] Built JSP000078.CycleLinking (179s)
+✔ [1221/1237] Built JSP000078.PathSplit (179s)
+✔ [1222/1237] Built JSP000078.OddCycles (185s)
+✔ [1223/1237] Built JSP000078.Linkage (196s)
+✔ [1224/1237] Built JSP000078.InitialLinkage (222s)
+✔ [1225/1237] Built JSP000078.LinkageReroute (222s)
+✔ [1226/1237] Built JSP000078.LinkageConnector (223s)
+✔ [1227/1237] Built JSP000078.Coloring (240s)
+✔ [1228/1237] Built JSP000078.OddCycleSplice (246s)
+✔ [1229/1237] Built JSP000078.MathlibBridge (442s)
+✔ [1230/1237] Built JSP000078.HistoricalLinking (271s)
+✔ [1231/1237] Built JSP000078.Main (266s)
+✔ [1232/1237] Built JSP000078.LongestOddCycle (266s)
+✔ [1233/1237] Built JSP000078.Sharpness (165s)
+✔ [1234/1237] Built JSP000078.GyarfasLemmaOne (165s)
+ℹ [1235/1237] Built JSP000078.AxiomAudit (80s)
+info: JSP000078/AxiomAudit.lean:4:0: 'JSP000078.chromaticNumber_le_two_mul_oddCycleLengths_card_add_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: JSP000078/AxiomAudit.lean:5:0: 'JSP000078.colorable_of_card_oddCycleLengths_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:6:0: 'JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:7:0: 'JSP000078.isBipartite_iff_oddCycleLengths_eq_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:8:0: 'JSP000078.card_oddCycleLengths_ge_of_chromaticNumber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:9:0: 'JSP000078.oddCycleLengths_bound_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:10:0: 'JSP000078.historicalCycleLinking' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:11:0: 'JSP000078.outside_odd_cycle_length_lt_longest' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [1236/1237] Built JSP000078 (36s)
+Build completed successfully (1237 jobs).

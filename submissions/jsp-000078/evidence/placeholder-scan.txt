@@ -1,0 +1,10 @@
+Frozen submission source audit
+Lean files: 25
+\bsorry\b: NO MATCHES
+\badmit\b: NO MATCHES
+^\s*axiom\b: NO MATCHES
+\bunsafe\b: NO MATCHES
+\bnative_decide\b: NO MATCHES
+\bofReduceBool\b: NO MATCHES
+\bimplemented_by\b: NO MATCHES
+\bextern\b: NO MATCHES
