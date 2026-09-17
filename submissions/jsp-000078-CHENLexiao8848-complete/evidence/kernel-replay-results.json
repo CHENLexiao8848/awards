@@ -1,0 +1,236 @@
+[
+  {
+    "modules": [
+      "JSP000078.AttachmentCycles",
+      "JSP000078.BalancedMarkedGaps",
+      "JSP000078.Basic",
+      "JSP000078.ChordVertexIndices",
+      "JSP000078.Coloring",
+      "JSP000078.ColoringSeparator",
+      "JSP000078.CommonAttachmentCount",
+      "JSP000078.CommonAttachmentData",
+      "JSP000078.CommonAttachmentGeometry",
+      "JSP000078.CommonEdgeNoAdjacent",
+      "JSP000078.CommonNeighborCount",
+      "JSP000078.ComplementaryParitySelection"
+    ],
+    "exit_code": 0,
+    "seconds": 100.27
+  },
+  {
+    "modules": [
+      "JSP000078.ConnectorClassCounts",
+      "JSP000078.ConnectorGeometry",
+      "JSP000078.ConnectorSetAlternatives",
+      "JSP000078.CycleArcs",
+      "JSP000078.CycleCardinality",
+      "JSP000078.CycleChords",
+      "JSP000078.CycleClosedWalkBipartite",
+      "JSP000078.CycleDistanceCoordinates",
+      "JSP000078.CycleLinking",
+      "JSP000078.CyclePositions",
+      "JSP000078.CycleRotationPositions",
+      "JSP000078.CycleSegments"
+    ],
+    "exit_code": 0,
+    "seconds": 80.05
+  },
+  {
+    "modules": [
+      "JSP000078.CycleTwoArcLengths",
+      "JSP000078.CyclicDistanceRebase",
+      "JSP000078.CyclicDistanceSets",
+      "JSP000078.CyclicGapExistence",
+      "JSP000078.CyclicParityCounts",
+      "JSP000078.DeletionConnector",
+      "JSP000078.DepthFirst",
+      "JSP000078.DisjointFanCycleCount",
+      "JSP000078.DistinctAttachmentsLarge",
+      "JSP000078.DistinctAttachmentsOne",
+      "JSP000078.EndpointConfiguration",
+      "JSP000078.EndpointConfigurationBridge"
+    ],
+    "exit_code": 0,
+    "seconds": 73.7
+  },
+  {
+    "modules": [
+      "JSP000078.EndpointCount",
+      "JSP000078.EndpointCountArithmetic",
+      "JSP000078.EndpointCycleData",
+      "JSP000078.EndpointDegree",
+      "JSP000078.EndpointNeighborCases",
+      "JSP000078.EndpointRoutes",
+      "JSP000078.EqualEndpointManyNeighbors",
+      "JSP000078.EvenCycleFan",
+      "JSP000078.EvenFanBipartite",
+      "JSP000078.EvenGapForcesTwo",
+      "JSP000078.ExceptionalConnectorCount",
+      "JSP000078.ExtraSmallLengthCount"
+    ],
+    "exit_code": 0,
+    "seconds": 88.63
+  },
+  {
+    "modules": [
+      "JSP000078.FanBaseCounting",
+      "JSP000078.FanBasePaths",
+      "JSP000078.FanCounting",
+      "JSP000078.FanHom",
+      "JSP000078.FanInternalPaths",
+      "JSP000078.FanPathCounting",
+      "JSP000078.FanPositions",
+      "JSP000078.FanRectangleBounds",
+      "JSP000078.FanRectanglePaths",
+      "JSP000078.FanRectangleRealization",
+      "JSP000078.FanRegions",
+      "JSP000078.FanSmallCase"
+    ],
+    "exit_code": 0,
+    "seconds": 136.98
+  },
+  {
+    "modules": [
+      "JSP000078.FanSubgraph",
+      "JSP000078.FiniteGraphTransport",
+      "JSP000078.GyarfasLemmaEight",
+      "JSP000078.GyarfasLemmaFive",
+      "JSP000078.GyarfasLemmaFour",
+      "JSP000078.GyarfasLemmaOne",
+      "JSP000078.GyarfasLemmaSeven",
+      "JSP000078.GyarfasLemmaSix",
+      "JSP000078.GyarfasLemmaThree",
+      "JSP000078.GyarfasLemmaTwo",
+      "JSP000078.GyarfasStructural",
+      "JSP000078.HistoricalColoring"
+    ],
+    "exit_code": 0,
+    "seconds": 114.02
+  },
+  {
+    "modules": [
+      "JSP000078.HistoricalCountingSpec",
+      "JSP000078.HistoricalExceptionsSpec",
+      "JSP000078.HistoricalLinking",
+      "JSP000078.HistoricalPathLengthsSpec",
+      "JSP000078.HistoricalSpec",
+      "JSP000078.HistoricalStructuralSpec",
+      "JSP000078.HubDistanceData",
+      "JSP000078.HubDistanceRebase",
+      "JSP000078.HubEvenMinimum",
+      "JSP000078.HubRigidity",
+      "JSP000078.InitialLinkage",
+      "JSP000078.Linkage"
+    ],
+    "exit_code": 0,
+    "seconds": 132.46
+  },
+  {
+    "modules": [
+      "JSP000078.LinkageConnector",
+      "JSP000078.LinkageReroute",
+      "JSP000078.LongestOddCycle",
+      "JSP000078.LongestOutsideEndpoints",
+      "JSP000078.LongestOutsidePath",
+      "JSP000078.LowDegreeColorExtension",
+      "JSP000078.Main",
+      "JSP000078.MarkedConnectorBalance",
+      "JSP000078.MarkedConnectorData",
+      "JSP000078.MathlibBridge",
+      "JSP000078.NearParityExhaustion",
+      "JSP000078.NormalizedHubRigidity"
+    ],
+    "exit_code": 0,
+    "seconds": 147.55
+  },
+  {
+    "modules": [
+      "JSP000078.NormalizedOddGapClosure",
+      "JSP000078.OddClosedWalk",
+      "JSP000078.OddConnectorCount",
+      "JSP000078.OddCycleFan",
+      "JSP000078.OddCyclePairNeighbors",
+      "JSP000078.OddCycleSplice",
+      "JSP000078.OddCycles",
+      "JSP000078.OddCyclicClosure",
+      "JSP000078.OneHubPairRigidity",
+      "JSP000078.OutsideFanLengthSet",
+      "JSP000078.OutsideHubData",
+      "JSP000078.OutsideNeighborPredecessor"
+    ],
+    "exit_code": 0,
+    "seconds": 441.8
+  },
+  {
+    "modules": [
+      "JSP000078.OutsideNeighborSaturation",
+      "JSP000078.OutsideRoutes",
+      "JSP000078.OutsideVertexCycles",
+      "JSP000078.Parity",
+      "JSP000078.PathChordParity",
+      "JSP000078.PathEndpointFan",
+      "JSP000078.PathGluing",
+      "JSP000078.PathParity",
+      "JSP000078.PathSplit",
+      "JSP000078.PathSpokes",
+      "JSP000078.PathSupportBounds",
+      "JSP000078.PathTrimming"
+    ],
+    "exit_code": 0,
+    "seconds": 103.91
+  },
+  {
+    "modules": [
+      "JSP000078.ProperDistanceComplement",
+      "JSP000078.RectangleCounting",
+      "JSP000078.RotatedRimNeighbors",
+      "JSP000078.RouteFamilyContradiction",
+      "JSP000078.SaturatedNeighborSet",
+      "JSP000078.SeparatedSumCounting",
+      "JSP000078.SeparatorSets",
+      "JSP000078.SharedAttachmentCycle",
+      "JSP000078.SharedAttachmentEvenFan",
+      "JSP000078.SharedAttachmentManyChords",
+      "JSP000078.SharedCycleComparison",
+      "JSP000078.SharedEdgeConnectorCount"
+    ],
+    "exit_code": 0,
+    "seconds": 137.79
+  },
+  {
+    "modules": [
+      "JSP000078.SharedEdgeCycle",
+      "JSP000078.SharedEdgeException",
+      "JSP000078.SharedEdgeGeometry",
+      "JSP000078.SharedEdgeOneLength",
+      "JSP000078.SharedFanContradiction",
+      "JSP000078.SharedFanCycleCount",
+      "JSP000078.SharedFanLengthSet",
+      "JSP000078.SharedVertexPathSplice",
+      "JSP000078.Sharpness",
+      "JSP000078.ShiftedPairCount",
+      "JSP000078.SingleOddLength",
+      "JSP000078.SingletonEndpointNeighbors"
+    ],
+    "exit_code": 0,
+    "seconds": 103.93
+  },
+  {
+    "modules": [
+      "JSP000078.SpanningCycleChords",
+      "JSP000078.SpokeParityExhaustion",
+      "JSP000078.TriplePathCounting",
+      "JSP000078.TwoAttachmentOneLength",
+      "JSP000078.TwoChordLargeException",
+      "JSP000078.TwoChordLengthClassification",
+      "JSP000078.TwoChordOneException",
+      "JSP000078.TwoChordOneOddPath",
+      "JSP000078.TwoChordRouteFamily",
+      "JSP000078.TwoEndpointChordPaths",
+      "JSP000078.TwoOutsideVerticesCycle",
+      "JSP000078.TwoSpokeCycle"
+    ],
+    "exit_code": 0,
+    "seconds": 97.4
+  }
+]

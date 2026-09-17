@@ -1,0 +1,35 @@
+{
+  "status": "completed-local-verification",
+  "lean_files": 159,
+  "mathematical_modules_replayed": 156,
+  "replay_batches": 13,
+  "all_replay_exit_zero": true,
+  "full_build_jobs": 1667,
+  "full_build_exit_code": 0,
+  "alternative_modules_build_exit_code": 0,
+  "main_check_exit_code": 0,
+  "sharpness_check_exit_code": 0,
+  "full_axiom_lists": 18,
+  "additional_axiom_lists": 8,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "main_local_dependency_count": 151,
+  "main_excludes_initial_dfs_modules": true,
+  "historical_lemmas_proved": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "structural_theorem_proved": true,
+  "historical_coloring_derived": true,
+  "scope": "Finite simple graphs; original numerical result, structural Theorem 1 and universal sharpness. No arbitrary infinite-graph/equality-iff extension claimed.",
+  "verification_limit": "Same pinned Lean kernel, cached upstream dependencies; not official verification or a second independently implemented checker."
+}

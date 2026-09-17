@@ -1,0 +1,12 @@
+Frozen complete submission proof-source scan
+Lean source files: 159
+(?<![A-Za-z0-9_])sorry(?![A-Za-z0-9_]): NO MATCHES
+(?<![A-Za-z0-9_])admit(?![A-Za-z0-9_]): NO MATCHES
+(?<![A-Za-z0-9_])unsafe(?![A-Za-z0-9_]): NO MATCHES
+(?<![A-Za-z0-9_])native_decide(?![A-Za-z0-9_]): NO MATCHES
+(?<![A-Za-z0-9_])ofReduceBool(?![A-Za-z0-9_]): NO MATCHES
+(?<![A-Za-z0-9_])implemented_by(?![A-Za-z0-9_]): NO MATCHES
+(?<![A-Za-z0-9_])extern(?![A-Za-z0-9_]): NO MATCHES
+^[ 	]*axiom(?![A-Za-z0-9_]): NO MATCHES
+debug[.]skipKernelTC: NO MATCHES
+addDeclWithoutChecking: NO MATCHES

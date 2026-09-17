@@ -1,0 +1,19 @@
+import JSP000078
+
+#check @JSP000078.mem_oddCycleLengths
+#check @JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq
+#check @JSP000078.gyarfas_structural_theorem
+#check @JSP000078.historicalGyarfasStructuralTheorem
+#check @JSP000078.historicalEqualEndpointChordException
+#check @JSP000078.oddCycleLengths_bound_sharp
+#check @JSP000078.odd_cycle_length_eq_of_outside_hub
+#check @JSP000078.two_large_endpoint_attachment_sets_impossible
+
+#print axioms JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq
+#print axioms JSP000078.gyarfas_structural_theorem
+#print axioms JSP000078.historicalGyarfasStructuralTheorem
+#print axioms JSP000078.historicalEqualEndpointChordException
+#print axioms JSP000078.colorable_of_structural_theorem
+#print axioms JSP000078.oddCycleLengths_bound_sharp
+#print axioms JSP000078.odd_cycle_length_eq_of_outside_hub
+#print axioms JSP000078.two_large_endpoint_attachment_sets_impossible

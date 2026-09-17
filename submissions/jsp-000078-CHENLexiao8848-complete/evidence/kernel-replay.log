@@ -1,0 +1,182 @@
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.AttachmentCycles JSP000078.BalancedMarkedGaps JSP000078.Basic JSP000078.ChordVertexIndices JSP000078.Coloring JSP000078.ColoringSeparator JSP000078.CommonAttachmentCount JSP000078.CommonAttachmentData JSP000078.CommonAttachmentGeometry JSP000078.CommonEdgeNoAdjacent JSP000078.CommonNeighborCount JSP000078.ComplementaryParitySelection
+replaying JSP000078.ComplementaryParitySelection
+replaying JSP000078.CommonNeighborCount
+replaying JSP000078.CommonEdgeNoAdjacent
+replaying JSP000078.CommonAttachmentGeometry
+replaying JSP000078.CommonAttachmentData
+replaying JSP000078.CommonAttachmentCount
+replaying JSP000078.ColoringSeparator
+replaying JSP000078.Coloring
+replaying JSP000078.ChordVertexIndices
+replaying JSP000078.Basic
+replaying JSP000078.BalancedMarkedGaps
+replaying JSP000078.AttachmentCycles
+Exit code: 0
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.ConnectorClassCounts JSP000078.ConnectorGeometry JSP000078.ConnectorSetAlternatives JSP000078.CycleArcs JSP000078.CycleCardinality JSP000078.CycleChords JSP000078.CycleClosedWalkBipartite JSP000078.CycleDistanceCoordinates JSP000078.CycleLinking JSP000078.CyclePositions JSP000078.CycleRotationPositions JSP000078.CycleSegments
+replaying JSP000078.CycleSegments
+replaying JSP000078.CycleRotationPositions
+replaying JSP000078.CyclePositions
+replaying JSP000078.CycleLinking
+replaying JSP000078.CycleDistanceCoordinates
+replaying JSP000078.CycleClosedWalkBipartite
+replaying JSP000078.CycleChords
+replaying JSP000078.CycleCardinality
+replaying JSP000078.CycleArcs
+replaying JSP000078.ConnectorSetAlternatives
+replaying JSP000078.ConnectorGeometry
+replaying JSP000078.ConnectorClassCounts
+Exit code: 0
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.CycleTwoArcLengths JSP000078.CyclicDistanceRebase JSP000078.CyclicDistanceSets JSP000078.CyclicGapExistence JSP000078.CyclicParityCounts JSP000078.DeletionConnector JSP000078.DepthFirst JSP000078.DisjointFanCycleCount JSP000078.DistinctAttachmentsLarge JSP000078.DistinctAttachmentsOne JSP000078.EndpointConfiguration JSP000078.EndpointConfigurationBridge
+replaying JSP000078.EndpointConfigurationBridge
+replaying JSP000078.EndpointConfiguration
+replaying JSP000078.DistinctAttachmentsOne
+replaying JSP000078.DistinctAttachmentsLarge
+replaying JSP000078.DisjointFanCycleCount
+replaying JSP000078.DepthFirst
+replaying JSP000078.DeletionConnector
+replaying JSP000078.CyclicParityCounts
+replaying JSP000078.CyclicGapExistence
+replaying JSP000078.CyclicDistanceSets
+replaying JSP000078.CyclicDistanceRebase
+replaying JSP000078.CycleTwoArcLengths
+Exit code: 0
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.EndpointCount JSP000078.EndpointCountArithmetic JSP000078.EndpointCycleData JSP000078.EndpointDegree JSP000078.EndpointNeighborCases JSP000078.EndpointRoutes JSP000078.EqualEndpointManyNeighbors JSP000078.EvenCycleFan JSP000078.EvenFanBipartite JSP000078.EvenGapForcesTwo JSP000078.ExceptionalConnectorCount JSP000078.ExtraSmallLengthCount
+replaying JSP000078.ExtraSmallLengthCount
+replaying JSP000078.ExceptionalConnectorCount
+replaying JSP000078.EvenGapForcesTwo
+replaying JSP000078.EvenFanBipartite
+replaying JSP000078.EvenCycleFan
+replaying JSP000078.EqualEndpointManyNeighbors
+replaying JSP000078.EndpointRoutes
+replaying JSP000078.EndpointNeighborCases
+replaying JSP000078.EndpointDegree
+replaying JSP000078.EndpointCycleData
+replaying JSP000078.EndpointCountArithmetic
+replaying JSP000078.EndpointCount
+Exit code: 0
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.FanBaseCounting JSP000078.FanBasePaths JSP000078.FanCounting JSP000078.FanHom JSP000078.FanInternalPaths JSP000078.FanPathCounting JSP000078.FanPositions JSP000078.FanRectangleBounds JSP000078.FanRectanglePaths JSP000078.FanRectangleRealization JSP000078.FanRegions JSP000078.FanSmallCase
+replaying JSP000078.FanSmallCase
+replaying JSP000078.FanRegions
+replaying JSP000078.FanRectangleRealization
+replaying JSP000078.FanRectanglePaths
+replaying JSP000078.FanRectangleBounds
+replaying JSP000078.FanPositions
+replaying JSP000078.FanPathCounting
+replaying JSP000078.FanInternalPaths
+replaying JSP000078.FanHom
+replaying JSP000078.FanCounting
+replaying JSP000078.FanBasePaths
+replaying JSP000078.FanBaseCounting
+Exit code: 0
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.FanSubgraph JSP000078.FiniteGraphTransport JSP000078.GyarfasLemmaEight JSP000078.GyarfasLemmaFive JSP000078.GyarfasLemmaFour JSP000078.GyarfasLemmaOne JSP000078.GyarfasLemmaSeven JSP000078.GyarfasLemmaSix JSP000078.GyarfasLemmaThree JSP000078.GyarfasLemmaTwo JSP000078.GyarfasStructural JSP000078.HistoricalColoring
+replaying JSP000078.HistoricalColoring
+replaying JSP000078.GyarfasStructural
+replaying JSP000078.GyarfasLemmaTwo
+replaying JSP000078.GyarfasLemmaThree
+replaying JSP000078.GyarfasLemmaSix
+replaying JSP000078.GyarfasLemmaSeven
+replaying JSP000078.GyarfasLemmaOne
+replaying JSP000078.GyarfasLemmaFour
+replaying JSP000078.GyarfasLemmaFive
+replaying JSP000078.GyarfasLemmaEight
+replaying JSP000078.FiniteGraphTransport
+replaying JSP000078.FanSubgraph
+Exit code: 0
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.HistoricalCountingSpec JSP000078.HistoricalExceptionsSpec JSP000078.HistoricalLinking JSP000078.HistoricalPathLengthsSpec JSP000078.HistoricalSpec JSP000078.HistoricalStructuralSpec JSP000078.HubDistanceData JSP000078.HubDistanceRebase JSP000078.HubEvenMinimum JSP000078.HubRigidity JSP000078.InitialLinkage JSP000078.Linkage
+replaying JSP000078.Linkage
+replaying JSP000078.InitialLinkage
+replaying JSP000078.HubRigidity
+replaying JSP000078.HubEvenMinimum
+replaying JSP000078.HubDistanceRebase
+replaying JSP000078.HubDistanceData
+replaying JSP000078.HistoricalStructuralSpec
+replaying JSP000078.HistoricalSpec
+replaying JSP000078.HistoricalPathLengthsSpec
+replaying JSP000078.HistoricalLinking
+replaying JSP000078.HistoricalExceptionsSpec
+replaying JSP000078.HistoricalCountingSpec
+Exit code: 0
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.LinkageConnector JSP000078.LinkageReroute JSP000078.LongestOddCycle JSP000078.LongestOutsideEndpoints JSP000078.LongestOutsidePath JSP000078.LowDegreeColorExtension JSP000078.Main JSP000078.MarkedConnectorBalance JSP000078.MarkedConnectorData JSP000078.MathlibBridge JSP000078.NearParityExhaustion JSP000078.NormalizedHubRigidity
+replaying JSP000078.NormalizedHubRigidity
+replaying JSP000078.NearParityExhaustion
+replaying JSP000078.MathlibBridge
+replaying JSP000078.MarkedConnectorData
+replaying JSP000078.MarkedConnectorBalance
+replaying JSP000078.Main
+replaying JSP000078.LowDegreeColorExtension
+replaying JSP000078.LongestOutsidePath
+replaying JSP000078.LongestOutsideEndpoints
+replaying JSP000078.LongestOddCycle
+replaying JSP000078.LinkageReroute
+replaying JSP000078.LinkageConnector
+Exit code: 0
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.NormalizedOddGapClosure JSP000078.OddClosedWalk JSP000078.OddConnectorCount JSP000078.OddCycleFan JSP000078.OddCyclePairNeighbors JSP000078.OddCycleSplice JSP000078.OddCycles JSP000078.OddCyclicClosure JSP000078.OneHubPairRigidity JSP000078.OutsideFanLengthSet JSP000078.OutsideHubData JSP000078.OutsideNeighborPredecessor
+replaying JSP000078.OutsideNeighborPredecessor
+replaying JSP000078.OutsideHubData
+replaying JSP000078.OutsideFanLengthSet
+replaying JSP000078.OneHubPairRigidity
+replaying JSP000078.OddCyclicClosure
+replaying JSP000078.OddCycles
+replaying JSP000078.OddCycleSplice
+replaying JSP000078.OddCyclePairNeighbors
+replaying JSP000078.OddCycleFan
+replaying JSP000078.OddConnectorCount
+replaying JSP000078.OddClosedWalk
+replaying JSP000078.NormalizedOddGapClosure
+Exit code: 0
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.OutsideNeighborSaturation JSP000078.OutsideRoutes JSP000078.OutsideVertexCycles JSP000078.Parity JSP000078.PathChordParity JSP000078.PathEndpointFan JSP000078.PathGluing JSP000078.PathParity JSP000078.PathSplit JSP000078.PathSpokes JSP000078.PathSupportBounds JSP000078.PathTrimming
+replaying JSP000078.PathTrimming
+replaying JSP000078.PathSupportBounds
+replaying JSP000078.PathSpokes
+replaying JSP000078.PathSplit
+replaying JSP000078.PathParity
+replaying JSP000078.PathGluing
+replaying JSP000078.PathEndpointFan
+replaying JSP000078.PathChordParity
+replaying JSP000078.Parity
+replaying JSP000078.OutsideVertexCycles
+replaying JSP000078.OutsideRoutes
+replaying JSP000078.OutsideNeighborSaturation
+Exit code: 0
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.ProperDistanceComplement JSP000078.RectangleCounting JSP000078.RotatedRimNeighbors JSP000078.RouteFamilyContradiction JSP000078.SaturatedNeighborSet JSP000078.SeparatedSumCounting JSP000078.SeparatorSets JSP000078.SharedAttachmentCycle JSP000078.SharedAttachmentEvenFan JSP000078.SharedAttachmentManyChords JSP000078.SharedCycleComparison JSP000078.SharedEdgeConnectorCount
+replaying JSP000078.SharedEdgeConnectorCount
+replaying JSP000078.SharedCycleComparison
+replaying JSP000078.SharedAttachmentManyChords
+replaying JSP000078.SharedAttachmentEvenFan
+replaying JSP000078.SharedAttachmentCycle
+replaying JSP000078.SeparatorSets
+replaying JSP000078.SeparatedSumCounting
+replaying JSP000078.SaturatedNeighborSet
+replaying JSP000078.RouteFamilyContradiction
+replaying JSP000078.RotatedRimNeighbors
+replaying JSP000078.RectangleCounting
+replaying JSP000078.ProperDistanceComplement
+Exit code: 0
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.SharedEdgeCycle JSP000078.SharedEdgeException JSP000078.SharedEdgeGeometry JSP000078.SharedEdgeOneLength JSP000078.SharedFanContradiction JSP000078.SharedFanCycleCount JSP000078.SharedFanLengthSet JSP000078.SharedVertexPathSplice JSP000078.Sharpness JSP000078.ShiftedPairCount JSP000078.SingleOddLength JSP000078.SingletonEndpointNeighbors
+replaying JSP000078.SingletonEndpointNeighbors
+replaying JSP000078.SingleOddLength
+replaying JSP000078.ShiftedPairCount
+replaying JSP000078.Sharpness
+replaying JSP000078.SharedVertexPathSplice
+replaying JSP000078.SharedFanLengthSet
+replaying JSP000078.SharedFanCycleCount
+replaying JSP000078.SharedFanContradiction
+replaying JSP000078.SharedEdgeOneLength
+replaying JSP000078.SharedEdgeGeometry
+replaying JSP000078.SharedEdgeException
+replaying JSP000078.SharedEdgeCycle
+Exit code: 0
+$ lake env lean -j2 --run <pinned-toolchain>/src/lean/LeanChecker.lean -v JSP000078.SpanningCycleChords JSP000078.SpokeParityExhaustion JSP000078.TriplePathCounting JSP000078.TwoAttachmentOneLength JSP000078.TwoChordLargeException JSP000078.TwoChordLengthClassification JSP000078.TwoChordOneException JSP000078.TwoChordOneOddPath JSP000078.TwoChordRouteFamily JSP000078.TwoEndpointChordPaths JSP000078.TwoOutsideVerticesCycle JSP000078.TwoSpokeCycle
+replaying JSP000078.TwoSpokeCycle
+replaying JSP000078.TwoOutsideVerticesCycle
+replaying JSP000078.TwoEndpointChordPaths
+replaying JSP000078.TwoChordRouteFamily
+replaying JSP000078.TwoChordOneOddPath
+replaying JSP000078.TwoChordOneException
+replaying JSP000078.TwoChordLengthClassification
+replaying JSP000078.TwoChordLargeException
+replaying JSP000078.TwoAttachmentOneLength
+replaying JSP000078.TriplePathCounting
+replaying JSP000078.SpokeParityExhaustion
+replaying JSP000078.SpanningCycleChords
+Exit code: 0

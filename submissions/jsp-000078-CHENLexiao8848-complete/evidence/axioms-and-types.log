@@ -1,0 +1,42 @@
+@JSP000078.mem_oddCycleLengths : ∀ {V : Type u_1} [inst : Fintype V] (G : SimpleGraph V) {n : ℕ},
+  n ∈ JSP000078.oddCycleLengths G ↔ Odd n ∧ ∃ v p, p.IsCycle ∧ p.length = n
+@JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq : ∀ {V : Type u_1} [inst : Fintype V] (G : SimpleGraph V)
+  (k : ℕ), (JSP000078.oddCycleLengths G).card = k → G.chromaticNumber ≤ ↑(2 * k + 2)
+@JSP000078.gyarfas_structural_theorem : ∀ {V : Type u_1} [inst : Fintype V] {G : SimpleGraph V}
+  [inst_1 : DecidableRel G.Adj] (k : ℕ),
+  1 ≤ k →
+    JSP000078.TwoVertexConnected G →
+      (∀ (v : V), 2 * k + 1 ≤ G.degree v) → (JSP000078.oddCycleLengths G).card = k → G = ⊤ ∧ Fintype.card V = 2 * k + 2
+@JSP000078.historicalGyarfasStructuralTheorem : JSP000078.HistoricalGyarfasStructuralTheorem
+@JSP000078.historicalEqualEndpointChordException : JSP000078.HistoricalEqualEndpointChordException
+JSP000078.oddCycleLengths_bound_sharp : ∀ (k : ℕ),
+  ∃ G, (JSP000078.oddCycleLengths G).card = k ∧ G.chromaticNumber = ↑(2 * k + 2)
+@JSP000078.odd_cycle_length_eq_of_outside_hub : ∀ {V : Type u_1} [inst : Fintype V] {G : SimpleGraph V} {c v : V}
+  {C : G.Walk c c},
+  C.IsCycle →
+    Odd C.length →
+      v ∉ C.support →
+        ∀ (X : Finset V) (k : ℕ),
+          2 ≤ k →
+            X.card = 2 * k →
+              (JSP000078.oddCycleLengths G).card = k → (∀ x ∈ X, x ∈ C.support ∧ G.Adj v x) → C.length = 2 * k + 1
+@JSP000078.two_large_endpoint_attachment_sets_impossible : ∀ {V : Type u_1} [inst : Fintype V] {G : SimpleGraph V}
+  {c A B : V} {C : G.Walk c c} {P : G.Walk A B},
+  C.IsCycle →
+    Odd C.length →
+      P.IsPath →
+        A ≠ B →
+          Disjoint {v | v ∈ P.support} {v | v ∈ C.support} →
+            ∀ (X Y : Finset V) (k : ℕ),
+              1 ≤ k →
+                (JSP000078.oddCycleLengths G).card = k →
+                  X.card = 2 * k →
+                    2 * k ≤ Y.card → (∀ v ∈ X, v ∈ C.support ∧ G.Adj A v) → (∀ v ∈ Y, v ∈ C.support ∧ G.Adj B v) → False
+'JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000078.gyarfas_structural_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000078.historicalGyarfasStructuralTheorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000078.historicalEqualEndpointChordException' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000078.colorable_of_structural_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000078.oddCycleLengths_bound_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000078.odd_cycle_length_eq_of_outside_hub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000078.two_large_endpoint_attachment_sets_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

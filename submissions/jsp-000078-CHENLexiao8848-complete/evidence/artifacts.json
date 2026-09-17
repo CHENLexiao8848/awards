@@ -1,0 +1,134 @@
+[
+  {
+    "id": "JSP-000078-COMPLETE-alternative-modules.log",
+    "path": "evidence/alternative-modules.log",
+    "bytes": 235,
+    "sha256": "12448498dfd7e9e872a9cfb4f83cea0cd71794802fabbb477871ade5e72db4dd"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-axioms-and-types.log",
+    "path": "evidence/axioms-and-types.log",
+    "bytes": 2950,
+    "sha256": "5969e6d28b8445885bb8d33a8f6848f6934f5f4bfa545fd8b24ee9c09722b4bf"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-axioms-full.log",
+    "path": "evidence/axioms-full.log",
+    "bytes": 1924,
+    "sha256": "445f4d8ee30562dd3b0ab0e0f29c7d6a3e40abc26abe64951c0ab849b97d1071"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-contribution-delta.json",
+    "path": "evidence/contribution-delta.json",
+    "bytes": 6540,
+    "sha256": "0eb60fd5304100dc8d2dfb5ebeab3cec5788a9f3a72123ab675bc3f221452d8c"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-frozen-sources.json",
+    "path": "evidence/frozen-sources.json",
+    "bytes": 26497,
+    "sha256": "57f8543432a9403106e63833d4055ec7560099bab7ca577e9404dbbd488bb4d9"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-kernel-replay-results.json",
+    "path": "evidence/kernel-replay-results.json",
+    "bytes": 6799,
+    "sha256": "c49031312cde5bc6103cfb556da2b2c5af0bb09a4f68d7d308795864d20ae7dc"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-kernel-replay.log",
+    "path": "evidence/kernel-replay.log",
+    "bytes": 11565,
+    "sha256": "66cac89cd7142fc9eaf270159a10c3e3fac1a015c00cc7ca8bba813964c077a4"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-lake-build.log",
+    "path": "evidence/lake-build.log",
+    "bytes": 11436,
+    "sha256": "825cc52759509a673edfc1afbeda4e1c8a73ebc84c392accd2cef9a068557a2e"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-main-check.log",
+    "path": "evidence/main-check.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-main-local-dependencies.txt",
+    "path": "evidence/main-local-dependencies.txt",
+    "bytes": 4340,
+    "sha256": "c70ddd355a3c1f6492eae2742e05f632039c047dc1e1c027ddd42e3fa69e3ac7"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-placeholder-scan.txt",
+    "path": "evidence/placeholder-scan.txt",
+    "bytes": 559,
+    "sha256": "b79ffed452662f82673e605da58c18dd0829a1797fe6f8fef1463c6179cd19db"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-replay-pilot.log",
+    "path": "evidence/replay-pilot.log",
+    "bytes": 26,
+    "sha256": "b483975bca8851b8f483e1b09201f7c2dfe8c3242682ddd4cdeca0ce7a394ca3"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-repository-build.log",
+    "path": "evidence/repository-build.log",
+    "bytes": 10,
+    "sha256": "c391b6d4b9adf7d960f401ad1a346744d469edaa1cfddf187e6c4324004dae01"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-repository-check.log",
+    "path": "evidence/repository-check.log",
+    "bytes": 10,
+    "sha256": "ad3249b444b1a55ed35b7c507156da9ec158647696fe440b17ff9d90a3e9cd56"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-repository-checks.json",
+    "path": "evidence/repository-checks.json",
+    "bytes": 898,
+    "sha256": "4872408e46d43c6c79d3c0d5949214038c026047071cfa50e7ee8e49da2ef4c6"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-repository-history.log",
+    "path": "evidence/repository-history.log",
+    "bytes": 12,
+    "sha256": "568ed9c8cc323b4fea33d8599b8846c57cc44e0b9874555f2ce6a8a53dbc94a1"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-repository-links.log",
+    "path": "evidence/repository-links.log",
+    "bytes": 10,
+    "sha256": "e221de9f0763035b20e207fa620824584944b786488c20c2a798bd82e6f305d4"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-repository-tests.log",
+    "path": "evidence/repository-tests.log",
+    "bytes": 121,
+    "sha256": "1f919678ca3e4a048000c14f5d42c95aa32b77380b89f291f535a9ff42985fd1"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-repository-validate.log",
+    "path": "evidence/repository-validate.log",
+    "bytes": 13,
+    "sha256": "12ca74086bb12b155a06bf138e5c804ccf9d9a7826eb350fe4f067578588f832"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-sharpness-check.log",
+    "path": "evidence/sharpness-check.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-source-manifest.json",
+    "path": "evidence/source-manifest.json",
+    "bytes": 25531,
+    "sha256": "2d7629740ef5043bcdd6d9b52b3ad0a6031cc91a67d6ba2b0d1ed16bde2ebe92"
+  },
+  {
+    "id": "JSP-000078-COMPLETE-verification-summary.json",
+    "path": "evidence/verification-summary.json",
+    "bytes": 1034,
+    "sha256": "22a1527738c04a57c7627a81e99b9a91240559f11b19d1f28bdcc049f011f54a"
+  }
+]
