@@ -15,3 +15,5 @@ Please review:
 No candidate/award YAML is fabricated: the formal-statement schema requires two curator signatories, and completed verification requires independent checker/environment evidence. Submitter-run Lean compilation cannot supply those attestations.
 
 The included CI configuration recompiles project sources in a fresh runner using pinned dependency caches. It is not a second independent kernel or a network-disabled dependency-source-only build. A permanent archival identifier and prize-specific checks should be recorded only after they actually exist.
+
+Related existing-evidence registration: [issue #24](https://github.com/TheJustinSunPrize/awards/issues/24), which includes the same problem and a different pinned Lean development. Please coordinate the catalog correction with that evidence; do not infer first-formalization priority from this PR.

@@ -47,3 +47,5 @@ The verifier checks actual toolchain and Mathlib HEAD, all 18 Lean files, all ni
 - [Requested review](REVIEW.md)
 
 The containing full commit SHA pins the proof and evidence. Paper PDFs and unrelated workspace files are excluded. Lean sources have an explicit [MIT license](proof/LICENSE); submission prose follows the repository's [CC BY 4.0 license](../../LICENSE-CONTENT).
+
+Existing Lean evidence for the same problem is registered in [issue #24](https://github.com/TheJustinSunPrize/awards/issues/24). See [the explicit prior-work acknowledgment](ATTRIBUTION.md#existing-formal-evidence). This submission makes no first-formalization claim.
