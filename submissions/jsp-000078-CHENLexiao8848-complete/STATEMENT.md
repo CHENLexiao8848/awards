@@ -1,3 +1,5 @@
+> Historical snapshot: this document originally described the finite package at e5fff3632957cbd00dec7029b5756a256c263d93. The current full-scope revision supersedes its finite-only exclusions; see [FULL_SCOPE_PROVENANCE.md](FULL_SCOPE_PROVENANCE.md) and [README.md](README.md). Earlier claims and verification results remain dated evidence, not results for the new revision.
+
 # Exact theorem and source correspondence
 
 Primary source: András Gyárfás, *Graphs with k odd cycle lengths*, Discrete Mathematics 103 (1992), 41–48, [DOI](https://doi.org/10.1016/0012-365X%2892%2990037-G). Supplement: Gao, Huo, and Ma, *A strengthening on odd cycles in graphs of given chromatic number*, [arXiv:2012.10624v2](https://arxiv.org/abs/2012.10624v2). Both supplied PDFs were read during development.

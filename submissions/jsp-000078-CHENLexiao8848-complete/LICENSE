@@ -20,5 +20,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Scope: first-party Lean source and audit scripts in this submission directory.
+Scope: first-party Lean source and audit scripts in this submission directory,
+except files with an explicit Apache-2.0 notice. Compactness.lean and
+CycleLengths.lean retain their third-party Apache-2.0 notices; the final
+statement in General.lean is credited under Apache-2.0.
 Documentation is CC BY 4.0. Third-party dependencies retain their own licenses.

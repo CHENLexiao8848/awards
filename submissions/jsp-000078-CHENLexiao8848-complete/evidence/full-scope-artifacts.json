@@ -1,0 +1,50 @@
+[
+  {
+    "id": "JSP000078-FULL-reproduction-alternative.log",
+    "path": "evidence/reproduction-alternative.log",
+    "bytes": 42,
+    "sha256": "de38bc08eb2cfe6fb0a1412e6aebac95fa041f0745c8dcaacd69f1a7556b215b"
+  },
+  {
+    "id": "JSP000078-FULL-reproduction-audit.log",
+    "path": "evidence/reproduction-audit.log",
+    "bytes": 2950,
+    "sha256": "5969e6d28b8445885bb8d33a8f6848f6934f5f4bfa545fd8b24ee9c09722b4bf"
+  },
+  {
+    "id": "JSP000078-FULL-reproduction-axioms-full.log",
+    "path": "evidence/reproduction-axioms-full.log",
+    "bytes": 1924,
+    "sha256": "445f4d8ee30562dd3b0ab0e0f29c7d6a3e40abc26abe64951c0ab849b97d1071"
+  },
+  {
+    "id": "JSP000078-FULL-reproduction-build.log",
+    "path": "evidence/reproduction-build.log",
+    "bytes": 2696,
+    "sha256": "e8feb45ce6bc37f2697c093867c135e7dc1aaf6b6d3fa5a7a6983bae1d35f22c"
+  },
+  {
+    "id": "JSP000078-FULL-reproduction-full-scope.log",
+    "path": "evidence/reproduction-full-scope.log",
+    "bytes": 1131,
+    "sha256": "2131cc188baf1dc16d6e85c58ac27549b8d79644ba9a90849ded157fc68892eb"
+  },
+  {
+    "id": "JSP000078-FULL-reproduction-main.log",
+    "path": "evidence/reproduction-main.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "id": "JSP000078-FULL-reproduction-replay-full.log",
+    "path": "evidence/reproduction-replay-full.log",
+    "bytes": 6176,
+    "sha256": "31d774bf954d8e37eb4fc5ef8d137b3f96fa37adabe3dc94d027c319bcbb7756"
+  },
+  {
+    "id": "JSP000078-FULL-reproduction-sharpness.log",
+    "path": "evidence/reproduction-sharpness.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

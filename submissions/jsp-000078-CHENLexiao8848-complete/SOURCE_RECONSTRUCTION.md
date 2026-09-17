@@ -1,3 +1,5 @@
+> Historical snapshot: this document originally described the finite package at e5fff3632957cbd00dec7029b5756a256c263d93. The current full-scope revision supersedes its finite-only exclusions; see [FULL_SCOPE_PROVENANCE.md](FULL_SCOPE_PROVENANCE.md) and [README.md](README.md). Earlier claims and verification results remain dated evidence, not results for the new revision.
+
 # Transparent source reconstruction and completed boundary arguments
 
 The final theorem and constants follow Gyárfás (1992). Formalization required explicit replacements for compressed or potentially misleading intermediate arguments. These local repairs preserve the source-context statements; they are not claims that no other formalization has addressed similar issues.

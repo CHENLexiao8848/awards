@@ -1,0 +1,22 @@
+ℹ [1711/1713] Replayed JSP000078.AxiomAudit
+info: JSP000078/AxiomAudit.lean:12:0: 'JSP000078.chromaticNumber_le_two_mul_oddCycleLengths_card_add_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: JSP000078/AxiomAudit.lean:13:0: 'JSP000078.colorable_of_card_oddCycleLengths_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:14:0: 'JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:15:0: 'JSP000078.isBipartite_iff_oddCycleLengths_eq_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:16:0: 'JSP000078.card_oddCycleLengths_ge_of_chromaticNumber_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:17:0: 'JSP000078.oddCycleLengths_bound_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:18:0: 'JSP000078.historicalCycleLinking' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:19:0: 'JSP000078.outside_odd_cycle_length_lt_longest' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:20:0: 'JSP000078.historicalIncidentChordLemmaTwo' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:21:0: 'JSP000078.historicalOddBaseChordCounting' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:22:0: 'JSP000078.historicalBipartiteFanPathLengths' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:23:0: 'JSP000078.historicalEndpointNeighborCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:24:0: 'JSP000078.historicalIndependentComplement' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:25:0: 'JSP000078.odd_lengths_of_common_endpoint_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:26:0: 'JSP000078.shared_endpoint_edge_exception' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:27:0: 'JSP000078.historicalDistinctEndpointException' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:28:0: 'JSP000078.gyarfas_structural_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: JSP000078/AxiomAudit.lean:29:0: 'JSP000078.historicalGyarfasStructuralTheorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (1713 jobs).

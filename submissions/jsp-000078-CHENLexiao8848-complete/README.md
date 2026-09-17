@@ -1,39 +1,30 @@
-# JSP-000078: complete historical-route Lean formalization
+# JSP-000078: complete original theorem
 
-This submission requests **Justin Sun Prize consideration for a completed independent formalization** of Gyárfás's finite-graph theorem and its historical structural proof. It preserves [PR #517](https://github.com/TheJustinSunPrize/awards/pull/517) and [PR #581](https://github.com/TheJustinSunPrize/awards/pull/581) as earlier immutable records; neither is closed, overwritten, or modified by this package.
+The final theorem is **JSP000078.erdos_58** in [General.lean](JSP000078/General.lean). For any simple graph on an arbitrary vertex type, finitely many odd simple-cycle lengths with cardinality at most k imply a chromatic bound of 2k+2, with equality if and only if the graph contains K_(2k+2). The statement includes k=0, empty and disconnected graphs, and infinite vertex types without countability or local-finiteness assumptions.
 
-## Completed result
+## Proof and attribution
 
-For every finite simple graph G with exactly k distinct odd simple-cycle lengths, **χ(G)≤2k+2**. For every natural k, the complete graph on 2k+2 vertices attains the bound. The package also proves **Gyárfás's structural Theorem 1**: a vertex-2-connected graph with exactly k≥1 odd cycle lengths and minimum degree at least 2k+1 is complete on exactly 2k+2 vertices.
+The finite bound remains derived from this project's complete historical Gyárfás structural proof. [FiniteEquality.lean](JSP000078/FiniteEquality.lean) adds the strict 2k+1-color bound when the extremal clique is absent. General.lean applies that result and compactness twice to obtain the full original statement.
 
-| Result | Declaration in namespace JSP000078 |
-| --- | --- |
-| Exact-k chromatic bound | `chromaticNumber_le_of_card_oddCycleLengths_eq` |
-| Proper finite coloring | `colorable_of_card_oddCycleLengths_le` |
-| Structural Theorem 1 | `gyarfas_structural_theorem` |
-| Full structural proposition | `historicalGyarfasStructuralTheorem` |
-| Universal sharpness | `oddCycleLengths_bound_sharp` |
-| Zero case | `isBipartite_iff_oddCycleLengths_eq_empty` |
+Compactness is attributed reuse from MaxwellLaw's #130, based on Mathlib's Rado selection lemma. The standard cycle definitions and final statement are credited to The Formal Conjectures Authors. The existing first-party historical proof is retained. [FULL_SCOPE_PROVENANCE.md](FULL_SCOPE_PROVENANCE.md) identifies exact versions, licenses and contribution boundaries.
 
-Main now derives its coloring from the proved historical structural theorem through vertex-count induction and universe transport. Its 151-module local dependency closure excludes the earlier DFS proof modules. All eight historical lemmas, including the previously incomplete Lemma 6 and singleton endpoint case, are integrated. No structural, path-family, counting, or coloring conclusion remains as a premise of the final numerical theorem.
+Earlier #130/#458 already supply complete arbitrary-graph formalizations. This package requests assessment of its concrete historical implementation, structural interfaces and added finite strict-coloring/bridge work, not first mathematical discovery or first formalization. OpenAI Codex assistance is disclosed.
 
-## What is new since #581
+## Reproduce
 
-The mathematical library has **49 new modules, six modified modules, and 103 unchanged modules** relative to #581. It contains 158 Lean files, plus the separate Audit.lean entry point (159 total). New work includes the full Lemma 6, longest-outside-path and endpoint reduction, singleton fan contradiction, complete structural theorem, independent bipartite base, separator coloring, and historical structural-to-coloring integration.
-
-The completed finite numerical theorem and historical route are the claimed scope. The 2021 consecutive-length strengthening, arbitrary infinite-graph extension, and separate full equality/block classification are not additional exports of this package. Related submissions #130 and #458 cover a broader arbitrary-graph/equality statement using existing finite work; the precise contribution comparison is in [COMPARISON.md](COMPARISON.md).
-
-## Verification and release
-
-The frozen source rebuild passes **1,667 Lake jobs**. Standalone numerical/structural type checks, axiom audits, source scans, and full mathematical-module replay are documented in [VERIFICATION.md](VERIFICATION.md). These are reproducible submitter-side checks through the standard Lean kernel, not an official award or an independently implemented checker attestation.
-
-Run from this directory with elan installed:
+Lean 4.34.0; Mathlib 5ed2965256430c3649e86755f9576b54eca72435, with transitive revisions locked. From this directory:
 
 ```bash
 lake exe cache get
 python3 verify.py
 ```
 
-Lean: `leanprover/lean4:v4.34.0`. Mathlib: `5ed2965256430c3649e86755f9576b54eca72435`, with all transitive revisions locked. No source-paper PDFs, dependency caches, or prebuilt project artifacts are distributed.
+The verifier checks source hashes and forbidden constructs, builds the full default target and retained alternatives, checks original/new signatures and axioms, and replays all 160 mathematical modules. [FullScopeAudit.lean](FullScopeAudit.lean) checks the exact arbitrary-universe statement and boundary interfaces. It trusts imported pinned Mathlib; it is not a from-source rebuild of all dependencies or a second checker implementation.
 
-Release archive and immutable tag: [jsp000078-complete-20260917](https://github.com/CHENLexiao8848/awards/releases/tag/jsp000078-complete-20260917). The release carries source and evidence archives plus SHA-256 checksums. See [CLAIMS.md](CLAIMS.md), [STATEMENT.md](STATEMENT.md), [PROOF.md](PROOF.md), [SOURCE_RECONSTRUCTION.md](SOURCE_RECONSTRUCTION.md), and [PROVENANCE.md](PROVENANCE.md).
+Current-run evidence is in reproduction logs and [FULL_SCOPE_VERIFICATION.md](FULL_SCOPE_VERIFICATION.md). Submitter-run checks and separate agent review do not establish organizer approval, independent human verification or an award.
+
+## History and submission
+
+The previous finite package remains at e5fff3632957cbd00dec7029b5756a256c263d93 and in the [original release](https://github.com/CHENLexiao8848/awards/releases/tag/jsp000078-complete-20260917). Earlier #517/#581 and historical contribution records are preserved. New equality and arbitrary-graph results are not backdated.
+
+Existing awards PR #649 is revised to catalog text and external references only. The proof is preserved on a separate public named branch; the catalog commit is not the proof version.

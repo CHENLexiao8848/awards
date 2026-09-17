@@ -5,6 +5,16 @@
     "sha256": "1e941fb38da3ef9fbce8de3eca3c17b740e8780c48d6870a8a30f71a48d49eeb"
   },
   {
+    "path": "FullScopeAudit.lean",
+    "bytes": 2013,
+    "sha256": "413d4f6a6d971fb92ae0138bd0f50e6bace16414cc537dc807040579cb368aa0"
+  },
+  {
+    "path": "JSP000078.lean",
+    "bytes": 558,
+    "sha256": "b68fb01eae663ae6e1da248664dc7d947e03875afbf49b46d2052743a5c7f3d5"
+  },
+  {
     "path": "JSP000078/AttachmentCycles.lean",
     "bytes": 6489,
     "sha256": "bef426b46aaaf67d16ba1ac4d667087971389378c600f9ce968737b96ca53743"
@@ -65,6 +75,11 @@
     "sha256": "356df7cdde06f01ebea675e52eed96613a7d8af74679626e774fb03a3472f93d"
   },
   {
+    "path": "JSP000078/Compactness.lean",
+    "bytes": 1247,
+    "sha256": "5636dc8c5c759260492d5aed03622c2111054c415032e8a23ef81328a33aa7d1"
+  },
+  {
     "path": "JSP000078/ComplementaryParitySelection.lean",
     "bytes": 3813,
     "sha256": "eb82703df6fd98068e43bf7dcf15b5534954d24cebaceadf9a5e2000ec1d19a1"
@@ -108,6 +123,11 @@
     "path": "JSP000078/CycleDistanceCoordinates.lean",
     "bytes": 2667,
     "sha256": "5d67e744077083fea46990e747aa93953ee098281563f7a0dee96a1fdcad7482"
+  },
+  {
+    "path": "JSP000078/CycleLengths.lean",
+    "bytes": 1525,
+    "sha256": "1927f3b98786363ac8ce7d8f49581838e84e20d54d19f17386718b1f8fbaab51"
   },
   {
     "path": "JSP000078/CycleLinking.lean",
@@ -315,9 +335,19 @@
     "sha256": "26ab59532a31bb77db658910075f69bff45f3bb6e300dc69396e3800b6a7df27"
   },
   {
+    "path": "JSP000078/FiniteEquality.lean",
+    "bytes": 4477,
+    "sha256": "ffaf34f6e183e71781da5790a24ef73c46d988db4d1d63bacc9558c3ca901882"
+  },
+  {
     "path": "JSP000078/FiniteGraphTransport.lean",
     "bytes": 2396,
     "sha256": "681c7ad3b4e9da32745c2eecd2a7b7fd92bbd3830fc7efc44c2543de1b13592b"
+  },
+  {
+    "path": "JSP000078/General.lean",
+    "bytes": 4106,
+    "sha256": "177a29d03b8ca53e0dbec7e1949c8abd3d42976442ad4a2e81cf3249755c4249"
   },
   {
     "path": "JSP000078/GyarfasLemmaEight.lean",
@@ -790,14 +820,9 @@
     "sha256": "03fa99ac4508d9623bc11a14f6716b6e46f4f55533de384c599c960bcf420603"
   },
   {
-    "path": "JSP000078.lean",
-    "bytes": 533,
-    "sha256": "aa427b357498733197e46c74567691f18570c750f49650bc5232784b9ca38d62"
-  },
-  {
-    "path": "lean-toolchain",
-    "bytes": 25,
-    "sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
+    "path": "lake-manifest.json",
+    "bytes": 3510,
+    "sha256": "e2afd1ada69f64a4451d45271846571ff409d9f4a0f5d7d54b38afe99308193a"
   },
   {
     "path": "lakefile.toml",
@@ -805,13 +830,13 @@
     "sha256": "d6129b1db5174c6a9736e515c680988a0f5c197841beb52daa74d79082fafca3"
   },
   {
-    "path": "lake-manifest.json",
-    "bytes": 3510,
-    "sha256": "e2afd1ada69f64a4451d45271846571ff409d9f4a0f5d7d54b38afe99308193a"
+    "path": "lean-toolchain",
+    "bytes": 25,
+    "sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632"
   },
   {
     "path": "verify.py",
-    "bytes": 3287,
-    "sha256": "d64cbb817731242a58248ea6ab0a1c6530a6a54079ba9d67ea92b4072beb2133"
+    "bytes": 3891,
+    "sha256": "0bc7e210d258ee29a3577499faf42bdd66fb46016a71fc4aa4a4b400626fba59"
   }
 ]
