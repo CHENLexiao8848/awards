@@ -1,0 +1,49 @@
+name: JSP-000838 Lean proof
+
+on:
+  push:
+    paths:
+      - 'submissions/jsp-000838/**'
+      - '.github/workflows/jsp-000838-lean.yml'
+  pull_request:
+    paths:
+      - 'submissions/jsp-000838/**'
+      - '.github/workflows/jsp-000838-lean.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: leanprover/lean-action@50fcf42d2e460296f1a34b402e990d1b24f8b596 # v1
+        with:
+          lake-package-directory: submissions/jsp-000838/proof
+          auto-config: 'false'
+          build: 'false'
+          test: 'false'
+          lint: 'false'
+          use-mathlib-cache: 'true'
+          use-github-cache: 'false'
+      - name: Rebuild project and audit exact statements
+        working-directory: submissions/jsp-000838/proof
+        run: python3 verify.py --clean --output-dir /tmp/jsp-000838-evidence
+      - name: Recheck compiled proof with bundled leanchecker
+        working-directory: submissions/jsp-000838/proof
+        env:
+          LEAN_NUM_THREADS: '2'
+        run: lake env leanchecker --fresh JSP000838.Main > /tmp/jsp-000838-evidence/leanchecker-fresh.txt 2>&1
+      - name: Preserve reproducible evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: jsp-000838-verification
+          path: /tmp/jsp-000838-evidence
+          if-no-files-found: warn
+          retention-days: 90

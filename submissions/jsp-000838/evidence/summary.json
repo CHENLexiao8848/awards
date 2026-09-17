@@ -1,0 +1,180 @@
+{
+  "format_version": 1,
+  "status": "PASS",
+  "started_utc": "2026-09-17T09:59:27.484991+00:00",
+  "verification_scope": "Local Lean kernel compilation, source scan and axiom audit. This is not an independent checker or an isolated environment.",
+  "expected_lean": "4.34.0",
+  "expected_mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+  "clean_requested": true,
+  "commands": [
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "log": "toolchain.txt",
+      "started_utc": "2026-09-17T09:59:27.491901+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-09-17T09:59:33.711845+00:00",
+      "warning_lines": 0
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        ".lake/packages/mathlib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "log": "mathlib-head.txt",
+      "started_utc": "2026-09-17T09:59:33.713727+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-09-17T09:59:33.722612+00:00",
+      "warning_lines": 0
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        ".lake/packages/mathlib",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "log": "mathlib-status.txt",
+      "started_utc": "2026-09-17T09:59:33.724720+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-09-17T09:59:33.750552+00:00",
+      "warning_lines": 0
+    },
+    {
+      "command": [
+        "lake",
+        "build"
+      ],
+      "log": "build.txt",
+      "started_utc": "2026-09-17T09:59:33.751310+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-09-17T10:00:04.943359+00:00",
+      "warning_lines": 0
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "JSP000838/Main.lean"
+      ],
+      "log": "main.txt",
+      "started_utc": "2026-09-17T10:00:04.944655+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-09-17T10:00:09.271957+00:00",
+      "warning_lines": 0
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "JSP000838/AxiomAudit.lean"
+      ],
+      "log": "axioms.txt",
+      "started_utc": "2026-09-17T10:00:09.274306+00:00",
+      "exit_code": 0,
+      "finished_utc": "2026-09-17T10:00:13.718917+00:00",
+      "warning_lines": 0
+    }
+  ],
+  "sha256": {
+    "JSP000838/AxiomAudit.lean": "ecb845f0dfb8e3804ecd6e74192a72a6ea446d5ee69e7a2bde91fa72ebd9efe1",
+    "JSP000838/Carrier.lean": "176db3c3b96d7e18c554828c11674c498c3e72027ad5cc32742f698afe1cb64f",
+    "JSP000838/CoverObstruction.lean": "0007879c92147d0e7c841a3142689f9f1ef5c2f70d33a3ebd67c7d0938be5103",
+    "JSP000838/Cycles.lean": "52a86bc3f9dfd33cab5b48bd2b3baa0f8bbb723c2777edd063f5d3fae8ae1819",
+    "JSP000838/Defs.lean": "ecfaf2a91975a7c03c90d128b535b470b63c5cc7f33d8000c1984fc1139d411b",
+    "JSP000838/FiniteChoice.lean": "a0e50ce5269a1fde58e74edc4986b5591e5a8c3bc20c2079bce5aa85a1766524",
+    "JSP000838/FiniteSeparation.lean": "c206da5dde383f29e548a2be596840887a457e1862a15a9968df1230cbae0c0c",
+    "JSP000838/Gluing.lean": "86ce651841186d135ab8d25552140ec3bbdbaa6a52c1f1937de4c7d32cac7a87",
+    "JSP000838/HasseBridge.lean": "6cc0df1b401b15ba6bf7183464b1f300ce7177bec7108ac078becd45cebc44bc",
+    "JSP000838/LocalCycle.lean": "a74aa2b37a03d0891106639ce6df3af659bcc8d2b72f55b76be39afa82af79f7",
+    "JSP000838/Main.lean": "6ec0df95e8c1b0d1dae6236f1e74bda145768c8f0a491ad014f929e0d9017079",
+    "JSP000838/OrderedObstruction.lean": "47deda879ff84ad6c28d66ab9a6da2badb82724882bececb9f31d9ce6de661fc",
+    "JSP000838/Orientation.lean": "3f097617eb7ee1f8498bc2e2bd32404e8942440d7698a68045d0481ab9f4643e",
+    "JSP000838/Pasting.lean": "1cd9d46c662af6dd6e95e025d238c3e9b9bfcd1d9c9b1934f336c7f0e37e9c63",
+    "JSP000838/Reachability.lean": "5b0e74acc98e34faf3a712aba7299891c6ff9bcf4951aba72557ee26e3d6d5d5",
+    "JSP000838/ReverseEdge.lean": "77ae5f3429dd443b01270a03a5ee7903e7ac95cbed6b04b954a76c8199dbfecc",
+    "JSP000838/SourceTheorem.lean": "277a5ff09be714028758784d94f748399d3c3c943446a51bdac276cb28109302",
+    "JSP000838.lean": "e54bb27b042292910d6556c669743f7c20743fa1ae19a40f452ad2d7e5a5d171",
+    "lake-manifest.json": "55b4f9698bf1b53a26c8c8f4e7dc62b3dd6ae402abe602da163b6d36e29338a6",
+    "lakefile.toml": "181ac8b21daae8ea6a12a96cde887fe7a3a765bc44cf2a3cdc790d9837430395",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+    "verify.py": "fecb40e2f420044b1d451c4f0697ca7103ae3b365562ee27e80ea1425aaf7dfd"
+  },
+  "source_files": 18,
+  "lean_toolchain_file": "leanprover/lean4:v4.34.0",
+  "manifest_mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+  "placeholder_scan": {
+    "status": "PASS",
+    "files_scanned": 18,
+    "hits": [],
+    "method": "lexical whole-word scan including comments"
+  },
+  "removed_project_build": false,
+  "lean_version_output": "Lean (version 4.34.0, arm64-apple-darwin24.6.0, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "lean_version": "4.34.0",
+  "mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+  "mathlib_tracked_worktree_clean": true,
+  "axiom_audit": {
+    "status": "PASS",
+    "theorems": {
+      "JSP000838.exists_large_separated_family": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "JSP000838.exists_ordered_graph_of_carrier": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "JSP000838.exists_noShortCycles_ordered_five": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "JSP000838.exists_noShortCycles_not_cover": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "JSP000838.exists_noShortCycles_not_hasse_subgraph": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "JSP000838.IsRobustAcyclicOrientation.isCoverGraph": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "JSP000838.reverseEdge_not_acyclic_of_intermediate": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "JSP000838.jsp_000838_counterexample": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "JSP000838.jsp_000838_conjecture_false": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  },
+  "sources_unchanged_during_checks": true,
+  "finished_utc": "2026-09-17T10:00:13.725548+00:00"
+}

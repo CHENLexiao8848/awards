@@ -951,7 +951,7 @@ The **No.** column runs consecutively from **JSP-000001** to **JSP-001022** in d
 | JSP-000835 | [Are there infinitely many consecutive positive integers with equal totients?](catalog-0801-0900.md#JSP-000835) | Progress | No | No | Unavailable |
 | JSP-000836 | [How long a consecutive-integer interval can have pairwise distinct totient values?](catalog-0801-0900.md#JSP-000836) | Progress | No | No | Unavailable |
 | JSP-000837 | [How far can local Farey-sequence segments extend when numerators and denominators vary in the same direction?](catalog-0801-0900.md#JSP-000837) | Solved | No | No | Unavailable |
-| JSP-000838 | [Can every graph without triangles or four-cycles be acyclically oriented so that reversing any single edge still leaves it acyclic?](catalog-0801-0900.md#JSP-000838) | Solved | No | No | Unavailable |
+| JSP-000838 | [Can every graph without triangles or four-cycles be acyclically oriented so that reversing any single edge still leaves it acyclic?](catalog-0801-0900.md#JSP-000838) | Solved | Yes (kernel checked; independent review requested) | Pending verification | Unavailable |
 | JSP-000839 | [Just above the maximum bipartite edge count, how many edge-disjoint triangles are guaranteed?](catalog-0801-0900.md#JSP-000839) | Solved | No | No | Unavailable |
 | JSP-000840 | [How many triangles must a graph have once its edge count exceeds the maximum bipartite edge count?](catalog-0801-0900.md#JSP-000840) | Solved | No | No | Unavailable |
 | JSP-000841 | [Under a high-chromatic-number condition, how many edges force a triangle?](catalog-0801-0900.md#JSP-000841) | Progress | No | No | Unavailable |

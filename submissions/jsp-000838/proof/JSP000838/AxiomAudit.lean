@@ -1,0 +1,14 @@
+import JSP000838.Main
+
+#print axioms JSP000838.exists_large_separated_family
+#print axioms JSP000838.exists_ordered_graph_of_carrier
+#print axioms JSP000838.exists_noShortCycles_ordered_five
+#print axioms JSP000838.exists_noShortCycles_not_cover
+#print axioms JSP000838.exists_noShortCycles_not_hasse_subgraph
+#print axioms JSP000838.IsRobustAcyclicOrientation.isCoverGraph
+#print axioms JSP000838.reverseEdge_not_acyclic_of_intermediate
+#print axioms JSP000838.jsp_000838_counterexample
+#print axioms JSP000838.jsp_000838_conjecture_false
+
+#check JSP000838.jsp_000838_counterexample
+#check JSP000838.jsp_000838_conjecture_false

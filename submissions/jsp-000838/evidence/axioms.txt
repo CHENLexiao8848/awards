@@ -1,0 +1,13 @@
+'JSP000838.exists_large_separated_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000838.exists_ordered_graph_of_carrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000838.exists_noShortCycles_ordered_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000838.exists_noShortCycles_not_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000838.exists_noShortCycles_not_hasse_subgraph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000838.IsRobustAcyclicOrientation.isCoverGraph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000838.reverseEdge_not_acyclic_of_intermediate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000838.jsp_000838_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000838.jsp_000838_conjecture_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP000838.jsp_000838_counterexample :
+  ∃ n G, JSP000838.NoShortCycles 5 G ∧ ∀ (D : Fin n → Fin n → Prop), ¬JSP000838.IsRobustAcyclicOrientation G D
+JSP000838.jsp_000838_conjecture_false :
+  ¬∀ (n : ℕ) (G : SimpleGraph (Fin n)), JSP000838.NoShortCycles 5 G → ∃ D, JSP000838.IsRobustAcyclicOrientation G D
