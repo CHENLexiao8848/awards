@@ -1,0 +1,837 @@
+{
+  "schema_version": 1,
+  "result": "passed",
+  "started_utc": "2026-09-17T09:48:38.370887+00:00",
+  "sanitization": "Transcripts are sanitized: absolute checkout, dependency-cache, home, and temporary paths are replaced by placeholders; ANSI color is removed. The command exit codes and theorem/axiom output are preserved.",
+  "toolchain": "leanprover/lean4:v4.34.0",
+  "mathlib_revision": "5ed2965256430c3649e86755f9576b54eca72435",
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "expected_declarations": [
+    "JSP000301.conjecture_false",
+    "JSP000562.density_fourth_13",
+    "JSP000562.density_fourth_17",
+    "JSP000562.density_fourth_19",
+    "JSP000562.fourthDensity_is_density",
+    "JSP000562.jsp000562",
+    "JSP000633.answer_positive_power",
+    "JSP000633.answer_sqrt",
+    "JSP000633.finite_bound",
+    "JSP000633.sidon_subset_two_thirds",
+    "JSP000690.solution"
+  ],
+  "commands": [
+    {
+      "name": "lean-version",
+      "argv": [
+        "lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 6.874,
+      "sanitized_log": "verification/lean-version.log",
+      "sanitized_log_sha256": "1426b57a02f34ebbb41ab9cff070da1018d2ebc217234a10913884ffea696c53"
+    },
+    {
+      "name": "before-plausible-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/plausible",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.007,
+      "sanitized_log": "verification/before-plausible-revision.log",
+      "sanitized_log_sha256": "834288c633ab33cc1b5c457e63f14ce34d94573a343dceaa175d74f8f5af0915"
+    },
+    {
+      "name": "before-plausible-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/plausible",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.012,
+      "sanitized_log": "verification/before-plausible-status.log",
+      "sanitized_log_sha256": "e5f913585272cb9741064384cdc5b85cfe8cb2354a658c177dc593a7a2bc3fec"
+    },
+    {
+      "name": "before-LeanSearchClient-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/LeanSearchClient",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.007,
+      "sanitized_log": "verification/before-LeanSearchClient-revision.log",
+      "sanitized_log_sha256": "ccbd2d7e31e357723812f9a681b565e59d3e4a420b6a025a04951b18eac04352"
+    },
+    {
+      "name": "before-LeanSearchClient-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/LeanSearchClient",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.009,
+      "sanitized_log": "verification/before-LeanSearchClient-status.log",
+      "sanitized_log_sha256": "a3bd8391235acc80cc02182293a419122cd5aed185b135d7d3278cf76f7bf8b2"
+    },
+    {
+      "name": "before-importGraph-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/importGraph",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.006,
+      "sanitized_log": "verification/before-importGraph-revision.log",
+      "sanitized_log_sha256": "16c5157263218246c01e868f60570a6bc900e7e57b9312fccc427eb11e891226"
+    },
+    {
+      "name": "before-importGraph-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/importGraph",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.009,
+      "sanitized_log": "verification/before-importGraph-status.log",
+      "sanitized_log_sha256": "a2b21a0302586a0d03ee6528ca3dddd138a1a5293eb912869c87a4394d936815"
+    },
+    {
+      "name": "before-proofwidgets-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/proofwidgets",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.006,
+      "sanitized_log": "verification/before-proofwidgets-revision.log",
+      "sanitized_log_sha256": "697e9f28b387925a2e55875a45b4a2cb477a8d2a066703be85d6c20830f25e57"
+    },
+    {
+      "name": "before-proofwidgets-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/proofwidgets",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.009,
+      "sanitized_log": "verification/before-proofwidgets-status.log",
+      "sanitized_log_sha256": "58f1f1457d92522873222cc541327ac7e874f72e28fc21d7c5a78f37adf74284"
+    },
+    {
+      "name": "before-aesop-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/aesop",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.006,
+      "sanitized_log": "verification/before-aesop-revision.log",
+      "sanitized_log_sha256": "906612e1cd513524700e8f9fc39196c91b643555a15ab9d89250fd10c2162ad1"
+    },
+    {
+      "name": "before-aesop-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/aesop",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.01,
+      "sanitized_log": "verification/before-aesop-status.log",
+      "sanitized_log_sha256": "9874417ee68a2df180e0fc538c8ed56cb25b735e368fc7df2cb3cfaacec83754"
+    },
+    {
+      "name": "before-Qq-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/Qq",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.006,
+      "sanitized_log": "verification/before-Qq-revision.log",
+      "sanitized_log_sha256": "8ebc67414b95a24965d4fdab63303c3205aca07ddd147c604d72725188f2f5da"
+    },
+    {
+      "name": "before-Qq-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/Qq",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.009,
+      "sanitized_log": "verification/before-Qq-status.log",
+      "sanitized_log_sha256": "7566cb7b298f076eabc37904f2ee57aff8d218444b105bee96d7509171e2f7d2"
+    },
+    {
+      "name": "before-batteries-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/batteries",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.006,
+      "sanitized_log": "verification/before-batteries-revision.log",
+      "sanitized_log_sha256": "55c3c61ef69e94b950c7387b50b56e02b8c0cf13bc5152d2d28258de4e565ae4"
+    },
+    {
+      "name": "before-batteries-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/batteries",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.012,
+      "sanitized_log": "verification/before-batteries-status.log",
+      "sanitized_log_sha256": "b389b749098ed8f1351f2b3f5cddcb749d8691012f2bc3646146edeee347be57"
+    },
+    {
+      "name": "before-Cli-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/Cli",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.008,
+      "sanitized_log": "verification/before-Cli-revision.log",
+      "sanitized_log_sha256": "fc37307dd4cdecc1c32eb26f90caa9950b3c95cb70814fec491fd70ce486a21d"
+    },
+    {
+      "name": "before-Cli-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/Cli",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.01,
+      "sanitized_log": "verification/before-Cli-status.log",
+      "sanitized_log_sha256": "827a47b04aba829bde1abec7f4119c0cb7ad681b01b40efd287e0b356c42b513"
+    },
+    {
+      "name": "before-mathlib-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/mathlib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.007,
+      "sanitized_log": "verification/before-mathlib-revision.log",
+      "sanitized_log_sha256": "d1b9df0db2b5beeecf3eb8ff9a5dde0375ae389a0225d427340a175594e90cf8"
+    },
+    {
+      "name": "before-mathlib-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/mathlib",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.024,
+      "sanitized_log": "verification/before-mathlib-status.log",
+      "sanitized_log_sha256": "1ff97a7b03de43aa509b6cf6526f398584fd85976e69b8da016355120c41a34a"
+    },
+    {
+      "name": "clean",
+      "argv": [
+        "lake",
+        "clean",
+        "pinnacleLean"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 2.152,
+      "sanitized_log": "verification/clean.log",
+      "sanitized_log_sha256": "acec08c2b9417ced80b364f7e1c7b95a4981782d283d3b8cd0c63f19e94ec3db"
+    },
+    {
+      "name": "build",
+      "argv": [
+        "lake",
+        "build"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 52.533,
+      "sanitized_log": "verification/build.log",
+      "sanitized_log_sha256": "b35c74c8774556a6485461174d4e923df2c91745bc90cff17586ca52c4ec481f"
+    },
+    {
+      "name": "axioms",
+      "argv": [
+        "lake",
+        "env",
+        "lean",
+        "-DwarningAsError=true",
+        "Audit.lean"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 4.432,
+      "sanitized_log": "verification/axioms.log",
+      "sanitized_log_sha256": "aa2edf2953b616e372cbec157373842ea53fcd04d9b7ebf09d89d010fc45fd8d"
+    },
+    {
+      "name": "kernel-replay",
+      "argv": [
+        "lake",
+        "env",
+        "leanchecker",
+        "--verbose",
+        "Problems"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 346.505,
+      "sanitized_log": "verification/kernel-replay.log",
+      "sanitized_log_sha256": "6b2d31a0e777b22fb2765ea87334342c04dd3a67a1a0af5da8051190252bd29c"
+    },
+    {
+      "name": "after-plausible-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/plausible",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.024,
+      "sanitized_log": "verification/after-plausible-revision.log",
+      "sanitized_log_sha256": "834288c633ab33cc1b5c457e63f14ce34d94573a343dceaa175d74f8f5af0915"
+    },
+    {
+      "name": "after-plausible-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/plausible",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.069,
+      "sanitized_log": "verification/after-plausible-status.log",
+      "sanitized_log_sha256": "e5f913585272cb9741064384cdc5b85cfe8cb2354a658c177dc593a7a2bc3fec"
+    },
+    {
+      "name": "after-LeanSearchClient-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/LeanSearchClient",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.039,
+      "sanitized_log": "verification/after-LeanSearchClient-revision.log",
+      "sanitized_log_sha256": "ccbd2d7e31e357723812f9a681b565e59d3e4a420b6a025a04951b18eac04352"
+    },
+    {
+      "name": "after-LeanSearchClient-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/LeanSearchClient",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.03,
+      "sanitized_log": "verification/after-LeanSearchClient-status.log",
+      "sanitized_log_sha256": "a3bd8391235acc80cc02182293a419122cd5aed185b135d7d3278cf76f7bf8b2"
+    },
+    {
+      "name": "after-importGraph-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/importGraph",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.021,
+      "sanitized_log": "verification/after-importGraph-revision.log",
+      "sanitized_log_sha256": "16c5157263218246c01e868f60570a6bc900e7e57b9312fccc427eb11e891226"
+    },
+    {
+      "name": "after-importGraph-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/importGraph",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.03,
+      "sanitized_log": "verification/after-importGraph-status.log",
+      "sanitized_log_sha256": "a2b21a0302586a0d03ee6528ca3dddd138a1a5293eb912869c87a4394d936815"
+    },
+    {
+      "name": "after-proofwidgets-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/proofwidgets",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.022,
+      "sanitized_log": "verification/after-proofwidgets-revision.log",
+      "sanitized_log_sha256": "697e9f28b387925a2e55875a45b4a2cb477a8d2a066703be85d6c20830f25e57"
+    },
+    {
+      "name": "after-proofwidgets-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/proofwidgets",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.06,
+      "sanitized_log": "verification/after-proofwidgets-status.log",
+      "sanitized_log_sha256": "58f1f1457d92522873222cc541327ac7e874f72e28fc21d7c5a78f37adf74284"
+    },
+    {
+      "name": "after-aesop-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/aesop",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.018,
+      "sanitized_log": "verification/after-aesop-revision.log",
+      "sanitized_log_sha256": "906612e1cd513524700e8f9fc39196c91b643555a15ab9d89250fd10c2162ad1"
+    },
+    {
+      "name": "after-aesop-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/aesop",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.027,
+      "sanitized_log": "verification/after-aesop-status.log",
+      "sanitized_log_sha256": "9874417ee68a2df180e0fc538c8ed56cb25b735e368fc7df2cb3cfaacec83754"
+    },
+    {
+      "name": "after-Qq-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/Qq",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.023,
+      "sanitized_log": "verification/after-Qq-revision.log",
+      "sanitized_log_sha256": "8ebc67414b95a24965d4fdab63303c3205aca07ddd147c604d72725188f2f5da"
+    },
+    {
+      "name": "after-Qq-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/Qq",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.062,
+      "sanitized_log": "verification/after-Qq-status.log",
+      "sanitized_log_sha256": "7566cb7b298f076eabc37904f2ee57aff8d218444b105bee96d7509171e2f7d2"
+    },
+    {
+      "name": "after-batteries-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/batteries",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.018,
+      "sanitized_log": "verification/after-batteries-revision.log",
+      "sanitized_log_sha256": "55c3c61ef69e94b950c7387b50b56e02b8c0cf13bc5152d2d28258de4e565ae4"
+    },
+    {
+      "name": "after-batteries-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/batteries",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.042,
+      "sanitized_log": "verification/after-batteries-status.log",
+      "sanitized_log_sha256": "b389b749098ed8f1351f2b3f5cddcb749d8691012f2bc3646146edeee347be57"
+    },
+    {
+      "name": "after-Cli-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/Cli",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.017,
+      "sanitized_log": "verification/after-Cli-revision.log",
+      "sanitized_log_sha256": "fc37307dd4cdecc1c32eb26f90caa9950b3c95cb70814fec491fd70ce486a21d"
+    },
+    {
+      "name": "after-Cli-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/Cli",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.035,
+      "sanitized_log": "verification/after-Cli-status.log",
+      "sanitized_log_sha256": "827a47b04aba829bde1abec7f4119c0cb7ad681b01b40efd287e0b356c42b513"
+    },
+    {
+      "name": "after-mathlib-revision",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/mathlib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.023,
+      "sanitized_log": "verification/after-mathlib-revision.log",
+      "sanitized_log_sha256": "d1b9df0db2b5beeecf3eb8ff9a5dde0375ae389a0225d427340a175594e90cf8"
+    },
+    {
+      "name": "after-mathlib-status",
+      "argv": [
+        "git",
+        "-C",
+        ".lake/packages/mathlib",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.126,
+      "sanitized_log": "verification/after-mathlib-status.log",
+      "sanitized_log_sha256": "1ff97a7b03de43aa509b6cf6526f398584fd85976e69b8da016355120c41a34a"
+    }
+  ],
+  "verification_scope": "Fresh local-module build, transitive axiom audit of the 11 named declarations, and Lean-kernel replay of every local Problems module. Dependency proof terms are trusted at the pinned revisions; not a second independent kernel or independent human review.",
+  "input_sha256": {
+    ".gitignore": "841c13d801f661ce2fe2e2b0cd4d37141e7d143972ad4bd7a295b0213543c4ac",
+    "Audit.lean": "13f258ee9ae5dde32867f5ffb1172abbe872e1cd9b9bfda013366e3e6a908ae1",
+    "CONTRIBUTIONS.md": "a8f365817478600cf5d5f3cb9032e86a548f4786301f0867e8761a6c2b433219",
+    "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "NOTICE": "66fa0a13cbf782c19d1557f64cacfece3d3f1bd3c02db00a4e56cec436d6fa72",
+    "Problems/JSP000301.lean": "3260101c1ce1e4053bc9aaa6c0c2319ce276280df683bef830b4aae559e78664",
+    "Problems/JSP000562.lean": "9ce1efa8e1e18954b2fd13c3a6f0ca780719b2c0b56eb72d01be07a0b55d47cc",
+    "Problems/JSP000562Audit.lean": "64b93321706763d1a87e90e9880037cfc1b23ded6f3ecabaeef568e2076a888d",
+    "Problems/JSP000633.lean": "7d190d1d4990ac090db9d40aed09b93f456eb5bb96a224d3c2ec269fe0b1711e",
+    "Problems/JSP000633Algebra.lean": "76199f86e6724f46cf08baa45f4691a16a05ff1cafcace4284104d71a8db3077",
+    "Problems/JSP000633Asymptotic.lean": "1f2946686a52900a4013b15505e00ea8e251479fa876cd47ca0bc4ea759aafe6",
+    "Problems/JSP000633Counting.lean": "f7ad78b83fc681049c37b059621c4e111f07cb04fd9e9d39f32f02760adbe07d",
+    "Problems/JSP000690.lean": "1aa1dd02054f94bf906c7029c6c4fe52381c55d1d68d2668f4f14719ffca2411",
+    "README.md": "7257dda0af2ef4db23187a082a18baf3a40dfefe520748508fa76978a77089a4",
+    "lake-manifest.json": "ba9698bd0a68c2a496784234f8740f0108378947e7dd94f3d94e4d721ba75937",
+    "lakefile.toml": "ed027cb97a7614db2ca637aa3a10a41fb30ec8a8186a8fe89354d73ad4466de3",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+    "verify.py": "306f9dbf688572607d973505682d65c7f3798306c2c0f3c5af7c4666053a0dbb"
+  },
+  "source_sha256": {
+    "Problems/JSP000301.lean": "3260101c1ce1e4053bc9aaa6c0c2319ce276280df683bef830b4aae559e78664",
+    "Problems/JSP000562.lean": "9ce1efa8e1e18954b2fd13c3a6f0ca780719b2c0b56eb72d01be07a0b55d47cc",
+    "Problems/JSP000562Audit.lean": "64b93321706763d1a87e90e9880037cfc1b23ded6f3ecabaeef568e2076a888d",
+    "Problems/JSP000633.lean": "7d190d1d4990ac090db9d40aed09b93f456eb5bb96a224d3c2ec269fe0b1711e",
+    "Problems/JSP000633Algebra.lean": "76199f86e6724f46cf08baa45f4691a16a05ff1cafcace4284104d71a8db3077",
+    "Problems/JSP000633Asymptotic.lean": "1f2946686a52900a4013b15505e00ea8e251479fa876cd47ca0bc4ea759aafe6",
+    "Problems/JSP000633Counting.lean": "f7ad78b83fc681049c37b059621c4e111f07cb04fd9e9d39f32f02760adbe07d",
+    "Problems/JSP000690.lean": "1aa1dd02054f94bf906c7029c6c4fe52381c55d1d68d2668f4f14719ffca2411"
+  },
+  "audit_sha256": "13f258ee9ae5dde32867f5ffb1172abbe872e1cd9b9bfda013366e3e6a908ae1",
+  "expected_local_modules": [
+    "Problems.JSP000301",
+    "Problems.JSP000562",
+    "Problems.JSP000562Audit",
+    "Problems.JSP000633",
+    "Problems.JSP000633Algebra",
+    "Problems.JSP000633Asymptotic",
+    "Problems.JSP000633Counting",
+    "Problems.JSP000690"
+  ],
+  "static_proof_escape_scan": "passed (supplementary; axiom and kernel checks follow)",
+  "lean": "Lean (version 4.34.0, arm64-apple-darwin24.6.0, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "dependency_state_before": {
+    "plausible": {
+      "revision": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "tracked_files_clean": true
+    },
+    "LeanSearchClient": {
+      "revision": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "tracked_files_clean": true
+    },
+    "importGraph": {
+      "revision": "e928b72544873815af278d38681b31c0293588e3",
+      "tracked_files_clean": true
+    },
+    "proofwidgets": {
+      "revision": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "tracked_files_clean": true
+    },
+    "aesop": {
+      "revision": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "tracked_files_clean": true
+    },
+    "Qq": {
+      "revision": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "tracked_files_clean": true
+    },
+    "batteries": {
+      "revision": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "tracked_files_clean": true
+    },
+    "Cli": {
+      "revision": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+      "tracked_files_clean": true
+    },
+    "mathlib": {
+      "revision": "5ed2965256430c3649e86755f9576b54eca72435",
+      "tracked_files_clean": true
+    }
+  },
+  "audited_declarations": [
+    "JSP000301.conjecture_false",
+    "JSP000562.density_fourth_13",
+    "JSP000562.density_fourth_17",
+    "JSP000562.density_fourth_19",
+    "JSP000562.fourthDensity_is_density",
+    "JSP000562.jsp000562",
+    "JSP000633.answer_positive_power",
+    "JSP000633.answer_sqrt",
+    "JSP000633.finite_bound",
+    "JSP000633.sidon_subset_two_thirds",
+    "JSP000690.solution"
+  ],
+  "declaration_axioms": {
+    "JSP000301.conjecture_false": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "JSP000562.density_fourth_13": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "JSP000562.density_fourth_17": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "JSP000562.density_fourth_19": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "JSP000562.fourthDensity_is_density": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "JSP000562.jsp000562": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "JSP000633.answer_positive_power": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "JSP000633.answer_sqrt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "JSP000633.finite_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "JSP000633.sidon_subset_two_thirds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "JSP000690.solution": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "replayed_local_modules": [
+    "Problems.JSP000301",
+    "Problems.JSP000562",
+    "Problems.JSP000562Audit",
+    "Problems.JSP000633",
+    "Problems.JSP000633Algebra",
+    "Problems.JSP000633Asymptotic",
+    "Problems.JSP000633Counting",
+    "Problems.JSP000690"
+  ],
+  "dependency_state_after": {
+    "plausible": {
+      "revision": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "tracked_files_clean": true
+    },
+    "LeanSearchClient": {
+      "revision": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "tracked_files_clean": true
+    },
+    "importGraph": {
+      "revision": "e928b72544873815af278d38681b31c0293588e3",
+      "tracked_files_clean": true
+    },
+    "proofwidgets": {
+      "revision": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "tracked_files_clean": true
+    },
+    "aesop": {
+      "revision": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "tracked_files_clean": true
+    },
+    "Qq": {
+      "revision": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "tracked_files_clean": true
+    },
+    "batteries": {
+      "revision": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "tracked_files_clean": true
+    },
+    "Cli": {
+      "revision": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+      "tracked_files_clean": true
+    },
+    "mathlib": {
+      "revision": "5ed2965256430c3649e86755f9576b54eca72435",
+      "tracked_files_clean": true
+    }
+  },
+  "input_sha256_after": {
+    ".gitignore": "841c13d801f661ce2fe2e2b0cd4d37141e7d143972ad4bd7a295b0213543c4ac",
+    "Audit.lean": "13f258ee9ae5dde32867f5ffb1172abbe872e1cd9b9bfda013366e3e6a908ae1",
+    "CONTRIBUTIONS.md": "a8f365817478600cf5d5f3cb9032e86a548f4786301f0867e8761a6c2b433219",
+    "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "NOTICE": "66fa0a13cbf782c19d1557f64cacfece3d3f1bd3c02db00a4e56cec436d6fa72",
+    "Problems/JSP000301.lean": "3260101c1ce1e4053bc9aaa6c0c2319ce276280df683bef830b4aae559e78664",
+    "Problems/JSP000562.lean": "9ce1efa8e1e18954b2fd13c3a6f0ca780719b2c0b56eb72d01be07a0b55d47cc",
+    "Problems/JSP000562Audit.lean": "64b93321706763d1a87e90e9880037cfc1b23ded6f3ecabaeef568e2076a888d",
+    "Problems/JSP000633.lean": "7d190d1d4990ac090db9d40aed09b93f456eb5bb96a224d3c2ec269fe0b1711e",
+    "Problems/JSP000633Algebra.lean": "76199f86e6724f46cf08baa45f4691a16a05ff1cafcace4284104d71a8db3077",
+    "Problems/JSP000633Asymptotic.lean": "1f2946686a52900a4013b15505e00ea8e251479fa876cd47ca0bc4ea759aafe6",
+    "Problems/JSP000633Counting.lean": "f7ad78b83fc681049c37b059621c4e111f07cb04fd9e9d39f32f02760adbe07d",
+    "Problems/JSP000690.lean": "1aa1dd02054f94bf906c7029c6c4fe52381c55d1d68d2668f4f14719ffca2411",
+    "README.md": "7257dda0af2ef4db23187a082a18baf3a40dfefe520748508fa76978a77089a4",
+    "lake-manifest.json": "ba9698bd0a68c2a496784234f8740f0108378947e7dd94f3d94e4d721ba75937",
+    "lakefile.toml": "ed027cb97a7614db2ca637aa3a10a41fb30ec8a8186a8fe89354d73ad4466de3",
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+    "verify.py": "306f9dbf688572607d973505682d65c7f3798306c2c0f3c5af7c4666053a0dbb"
+  },
+  "input_hashes_unchanged": true,
+  "finished_utc": "2026-09-17T09:55:31.777885+00:00",
+  "script_exit_code": 0
+}

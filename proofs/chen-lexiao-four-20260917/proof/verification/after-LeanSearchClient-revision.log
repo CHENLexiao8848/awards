@@ -1,0 +1,5 @@
+# Transcripts are sanitized: absolute checkout, dependency-cache, home, and temporary paths are replaced by placeholders; ANSI color is removed. The command exit codes and theorem/axiom output are preserved.
+# Command argv: ["git", "-C", ".lake/packages/LeanSearchClient", "rev-parse", "HEAD"]
+# Exit code: 0
+
+ddf04cf3949fa556442341e87d47f9f6e6074707

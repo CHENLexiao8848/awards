@@ -1,0 +1,4 @@
+# Transcripts are sanitized: absolute checkout, dependency-cache, home, and temporary paths are replaced by placeholders; ANSI color is removed. The command exit codes and theorem/axiom output are preserved.
+# Command argv: ["git", "-C", ".lake/packages/importGraph", "status", "--porcelain", "--untracked-files=no"]
+# Exit code: 0
+

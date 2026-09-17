@@ -1,0 +1,54 @@
+# Transcripts are sanitized: absolute checkout, dependency-cache, home, and temporary paths are replaced by placeholders; ANSI color is removed. The command exit codes and theorem/axiom output are preserved.
+# Command argv: ["lake", "env", "lean", "-DwarningAsError=true", "Audit.lean"]
+# Exit code: 0
+
+JSP000301.exists_consecutive_powerful_not_square :
+  ∃ n, JSP000301.Powerful n ∧ JSP000301.Powerful (n + 1) ∧ ¬IsSquare n ∧ ¬IsSquare (n + 1)
+JSP000301.conjecture_false :
+  ¬∀ (n : ℕ), JSP000301.Powerful n → JSP000301.Powerful (n + 1) → IsSquare n ∨ IsSquare (n + 1)
+'JSP000301.conjecture_false' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP000690.solution :
+  ∃ H,
+    H.vertices.card = 9 ∧
+      Finset.card H.edges = 22 ∧
+        JSP000690.IsUniform H.edges 3 ∧
+          JSP000690.IsThreeColorCritical H ∧
+            (∀ v ∈ H.vertices, 7 ≤ JSP000690.degree H.edges v) ∧ ∃ v ∈ H.vertices, JSP000690.degree H.edges v = 7
+JSP000690.every_proper_subgraph_two_colorable (K : JSP000690.FiniteHypergraph)
+  (hK : JSP000690.IsProperSubgraph K JSP000690.exampleGraph) : JSP000690.Colorable K.edges 2
+'JSP000690.solution' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP000562.HasNaturalDensity (P : ℕ → Prop) [DecidablePred P] (d : ℝ) : Prop
+JSP000562.IsFourthPrimeFactor (p n : ℕ) : Prop
+JSP000562.fourthDensity_is_density (p : ℕ) (hp : Nat.Prime p) :
+  JSP000562.HasNaturalDensity (JSP000562.IsFourthPrimeFactor p) (JSP000562.fourthDensity p)
+JSP000562.density_fourth_13 : JSP000562.HasNaturalDensity (JSP000562.IsFourthPrimeFactor 13) (31 / 5005)
+JSP000562.density_fourth_17 : JSP000562.HasNaturalDensity (JSP000562.IsFourthPrimeFactor 17) (206 / 36465)
+JSP000562.density_fourth_19 : JSP000562.HasNaturalDensity (JSP000562.IsFourthPrimeFactor 19) (1308 / 230945)
+JSP000562.jsp000562 : ¬JSP000562.PrimeUnimodal JSP000562.fourthDensity
+'JSP000562.fourthDensity_is_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000562.density_fourth_13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000562.density_fourth_17' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000562.density_fourth_19' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000562.jsp000562' depends on axioms: [propext, Classical.choice, Quot.sound]
+JSP000633.BoundedRepresentations (A : Finset ℕ) (k : ℕ) : Prop
+JSP000633.IsSidon (A : Finset ℕ) : Prop
+JSP000633.finite_bound (A : Finset ℕ) (k : ℕ) (hk : JSP000633.BoundedRepresentations A k) :
+  ∃ B ⊆ A, JSP000633.IsSidon B ∧ ↑A.card ^ 2 ≤ (4 + 24 * ↑k) * ↑B.card ^ 3
+JSP000633.sidon_subset_two_thirds (k : ℕ) :
+  ∃ c,
+    0 < c ∧
+      ∀ (A : Finset ℕ),
+        JSP000633.BoundedRepresentations A k → ∃ B ⊆ A, JSP000633.IsSidon B ∧ c * ↑A.card ^ (2 / 3) ≤ ↑B.card
+JSP000633.answer_sqrt (k : ℕ) (M : ℝ) :
+  ∃ N,
+    ∀ (A : Finset ℕ),
+      N ≤ A.card → JSP000633.BoundedRepresentations A k → ∃ B ⊆ A, JSP000633.IsSidon B ∧ M * √↑A.card < ↑B.card
+JSP000633.answer_positive_power (k : ℕ) :
+  ∃ N,
+    ∀ (A : Finset ℕ),
+      N ≤ A.card →
+        JSP000633.BoundedRepresentations A k → ∃ B ⊆ A, JSP000633.IsSidon B ∧ ↑A.card ^ (1 / 2 + 1 / 12) < ↑B.card
+'JSP000633.finite_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000633.sidon_subset_two_thirds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000633.answer_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP000633.answer_positive_power' depends on axioms: [propext, Classical.choice, Quot.sound]
