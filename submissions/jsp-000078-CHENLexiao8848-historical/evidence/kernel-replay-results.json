@@ -1,0 +1,325 @@
+[
+  {
+    "modules": [
+      "JSP000078.AttachmentCycles",
+      "JSP000078.Basic",
+      "JSP000078.Coloring"
+    ],
+    "exit_code": 0,
+    "seconds": 53.5
+  },
+  {
+    "modules": [
+      "JSP000078.CommonAttachmentCount",
+      "JSP000078.CommonAttachmentData",
+      "JSP000078.CommonAttachmentGeometry"
+    ],
+    "exit_code": 0,
+    "seconds": 47.55
+  },
+  {
+    "modules": [
+      "JSP000078.CommonEdgeNoAdjacent",
+      "JSP000078.CommonNeighborCount",
+      "JSP000078.ComplementaryParitySelection"
+    ],
+    "exit_code": 0,
+    "seconds": 45.82
+  },
+  {
+    "modules": [
+      "JSP000078.CycleArcs",
+      "JSP000078.CycleCardinality",
+      "JSP000078.CycleChords"
+    ],
+    "exit_code": 0,
+    "seconds": 40.35
+  },
+  {
+    "modules": [
+      "JSP000078.CycleDistanceCoordinates",
+      "JSP000078.CycleLinking",
+      "JSP000078.CyclePositions"
+    ],
+    "exit_code": 0,
+    "seconds": 34.88
+  },
+  {
+    "modules": [
+      "JSP000078.CycleRotationPositions",
+      "JSP000078.CycleSegments",
+      "JSP000078.CycleTwoArcLengths"
+    ],
+    "exit_code": 0,
+    "seconds": 43.13
+  },
+  {
+    "modules": [
+      "JSP000078.CyclicDistanceRebase",
+      "JSP000078.CyclicDistanceSets",
+      "JSP000078.CyclicGapExistence"
+    ],
+    "exit_code": 0,
+    "seconds": 43.21
+  },
+  {
+    "modules": [
+      "JSP000078.CyclicParityCounts",
+      "JSP000078.DepthFirst",
+      "JSP000078.DistinctAttachmentsLarge"
+    ],
+    "exit_code": 0,
+    "seconds": 43.47
+  },
+  {
+    "modules": [
+      "JSP000078.DistinctAttachmentsOne",
+      "JSP000078.EndpointConfiguration",
+      "JSP000078.EndpointConfigurationBridge"
+    ],
+    "exit_code": 0,
+    "seconds": 40.8
+  },
+  {
+    "modules": [
+      "JSP000078.EndpointCount",
+      "JSP000078.EndpointCountArithmetic",
+      "JSP000078.EndpointCycleData"
+    ],
+    "exit_code": 0,
+    "seconds": 40.72
+  },
+  {
+    "modules": [
+      "JSP000078.EndpointRoutes",
+      "JSP000078.EvenCycleFan",
+      "JSP000078.EvenFanBipartite"
+    ],
+    "exit_code": 0,
+    "seconds": 40.1
+  },
+  {
+    "modules": [
+      "JSP000078.EvenGapForcesTwo",
+      "JSP000078.ExtraSmallLengthCount",
+      "JSP000078.FanBaseCounting"
+    ],
+    "exit_code": 0,
+    "seconds": 45.12
+  },
+  {
+    "modules": [
+      "JSP000078.FanBasePaths",
+      "JSP000078.FanCounting",
+      "JSP000078.FanInternalPaths"
+    ],
+    "exit_code": 0,
+    "seconds": 43.22
+  },
+  {
+    "modules": [
+      "JSP000078.FanPathCounting",
+      "JSP000078.FanPositions",
+      "JSP000078.FanRectangleBounds"
+    ],
+    "exit_code": 0,
+    "seconds": 47.83
+  },
+  {
+    "modules": [
+      "JSP000078.FanRectanglePaths",
+      "JSP000078.FanRectangleRealization",
+      "JSP000078.FanRegions"
+    ],
+    "exit_code": 0,
+    "seconds": 46.64
+  },
+  {
+    "modules": [
+      "JSP000078.FanSmallCase",
+      "JSP000078.GyarfasLemmaEight",
+      "JSP000078.GyarfasLemmaFive"
+    ],
+    "exit_code": 0,
+    "seconds": 55.02
+  },
+  {
+    "modules": [
+      "JSP000078.GyarfasLemmaFour",
+      "JSP000078.GyarfasLemmaOne",
+      "JSP000078.GyarfasLemmaSeven"
+    ],
+    "exit_code": 0,
+    "seconds": 47.94
+  },
+  {
+    "modules": [
+      "JSP000078.GyarfasLemmaThree",
+      "JSP000078.GyarfasLemmaTwo",
+      "JSP000078.HistoricalCountingSpec"
+    ],
+    "exit_code": 0,
+    "seconds": 30.13
+  },
+  {
+    "modules": [
+      "JSP000078.HistoricalExceptionsSpec",
+      "JSP000078.HistoricalLinking",
+      "JSP000078.HistoricalPathLengthsSpec"
+    ],
+    "exit_code": 0,
+    "seconds": 31.06
+  },
+  {
+    "modules": [
+      "JSP000078.HistoricalSpec",
+      "JSP000078.HistoricalStructuralSpec",
+      "JSP000078.HubDistanceData"
+    ],
+    "exit_code": 0,
+    "seconds": 27.96
+  },
+  {
+    "modules": [
+      "JSP000078.HubDistanceRebase",
+      "JSP000078.HubEvenMinimum",
+      "JSP000078.HubRigidity"
+    ],
+    "exit_code": 0,
+    "seconds": 28.52
+  },
+  {
+    "modules": [
+      "JSP000078.InitialLinkage",
+      "JSP000078.Linkage",
+      "JSP000078.LinkageConnector"
+    ],
+    "exit_code": 0,
+    "seconds": 30.02
+  },
+  {
+    "modules": [
+      "JSP000078.LinkageReroute",
+      "JSP000078.LongestOddCycle",
+      "JSP000078.Main"
+    ],
+    "exit_code": 0,
+    "seconds": 28.93
+  },
+  {
+    "modules": [
+      "JSP000078.MathlibBridge",
+      "JSP000078.NearParityExhaustion",
+      "JSP000078.NormalizedHubRigidity"
+    ],
+    "exit_code": 0,
+    "seconds": 30.31
+  },
+  {
+    "modules": [
+      "JSP000078.NormalizedOddGapClosure",
+      "JSP000078.OddCycleFan",
+      "JSP000078.OddCyclePairNeighbors"
+    ],
+    "exit_code": 0,
+    "seconds": 26.33
+  },
+  {
+    "modules": [
+      "JSP000078.OddCycleSplice",
+      "JSP000078.OddCycles",
+      "JSP000078.OddCyclicClosure"
+    ],
+    "exit_code": 0,
+    "seconds": 27.72
+  },
+  {
+    "modules": [
+      "JSP000078.OneHubPairRigidity",
+      "JSP000078.OutsideHubData",
+      "JSP000078.OutsideNeighborPredecessor"
+    ],
+    "exit_code": 0,
+    "seconds": 26.09
+  },
+  {
+    "modules": [
+      "JSP000078.OutsideNeighborSaturation",
+      "JSP000078.OutsideRoutes",
+      "JSP000078.OutsideVertexCycles"
+    ],
+    "exit_code": 0,
+    "seconds": 28.43
+  },
+  {
+    "modules": [
+      "JSP000078.Parity",
+      "JSP000078.PathGluing",
+      "JSP000078.PathParity"
+    ],
+    "exit_code": 0,
+    "seconds": 26.2
+  },
+  {
+    "modules": [
+      "JSP000078.PathSplit",
+      "JSP000078.PathSpokes",
+      "JSP000078.PathSupportBounds"
+    ],
+    "exit_code": 0,
+    "seconds": 27.87
+  },
+  {
+    "modules": [
+      "JSP000078.PathTrimming",
+      "JSP000078.RectangleCounting",
+      "JSP000078.RotatedRimNeighbors"
+    ],
+    "exit_code": 0,
+    "seconds": 28.52
+  },
+  {
+    "modules": [
+      "JSP000078.SaturatedNeighborSet",
+      "JSP000078.SeparatedSumCounting",
+      "JSP000078.SharedEdgeConnectorCount"
+    ],
+    "exit_code": 0,
+    "seconds": 28.94
+  },
+  {
+    "modules": [
+      "JSP000078.SharedEdgeCycle",
+      "JSP000078.SharedEdgeException",
+      "JSP000078.SharedEdgeGeometry"
+    ],
+    "exit_code": 0,
+    "seconds": 28.44
+  },
+  {
+    "modules": [
+      "JSP000078.SharedEdgeOneLength",
+      "JSP000078.Sharpness",
+      "JSP000078.SpanningCycleChords"
+    ],
+    "exit_code": 0,
+    "seconds": 27.89
+  },
+  {
+    "modules": [
+      "JSP000078.SpokeParityExhaustion",
+      "JSP000078.TriplePathCounting",
+      "JSP000078.TwoAttachmentOneLength"
+    ],
+    "exit_code": 0,
+    "seconds": 27.22
+  },
+  {
+    "modules": [
+      "JSP000078.TwoOutsideVerticesCycle",
+      "JSP000078.TwoSpokeCycle"
+    ],
+    "exit_code": 0,
+    "seconds": 22.81
+  }
+]

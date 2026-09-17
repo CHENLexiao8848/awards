@@ -1,0 +1,27 @@
+import JSP000078
+
+#check @JSP000078.mem_oddCycleLengths
+#check @JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq
+#check @JSP000078.oddCycleLengths_bound_sharp
+#check @JSP000078.historicalIncidentChordLemmaTwo
+#check @JSP000078.historicalBipartiteFanPathLengths
+#check @JSP000078.odd_lengths_of_endpoint_neighbor_sets
+#check @JSP000078.complete_of_independent_outside_longest_odd_cycle
+#check @JSP000078.odd_lengths_of_shared_attachment
+#check @JSP000078.odd_cycle_length_eq_of_outside_hub
+#check @JSP000078.two_large_endpoint_attachment_sets_impossible
+#check @JSP000078.historicalDistinctEndpointException
+#check @JSP000078.shared_endpoint_edge_exception
+
+#print axioms JSP000078.chromaticNumber_le_of_card_oddCycleLengths_eq
+#print axioms JSP000078.oddCycleLengths_bound_sharp
+#print axioms JSP000078.historicalCycleLinking
+#print axioms JSP000078.outside_odd_cycle_length_lt_longest
+#print axioms JSP000078.historicalIncidentChordLemmaTwo
+#print axioms JSP000078.historicalBipartiteFanPathLengths
+#print axioms JSP000078.odd_lengths_of_endpoint_neighbor_sets
+#print axioms JSP000078.complete_of_independent_outside_longest_odd_cycle
+#print axioms JSP000078.odd_lengths_of_shared_attachment
+#print axioms JSP000078.odd_cycle_length_eq_of_outside_hub
+#print axioms JSP000078.historicalDistinctEndpointException
+#print axioms JSP000078.shared_endpoint_edge_exception

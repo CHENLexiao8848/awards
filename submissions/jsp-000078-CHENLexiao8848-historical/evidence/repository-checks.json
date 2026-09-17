@@ -1,0 +1,37 @@
+[
+  {
+    "command": "python scripts/manage.py validate",
+    "exit_code": 0,
+    "seconds": 0.67,
+    "log": "evidence/repository-validate.log"
+  },
+  {
+    "command": "python scripts/manage.py build",
+    "exit_code": 0,
+    "seconds": 0.51,
+    "log": "evidence/repository-build.log"
+  },
+  {
+    "command": "python scripts/manage.py check",
+    "exit_code": 0,
+    "seconds": 0.63,
+    "log": "evidence/repository-check.log"
+  },
+  {
+    "command": "python scripts/manage.py history --base f4e7173d89dfe91022a185427d63452c8ffbf6ae",
+    "exit_code": 0,
+    "seconds": 0.88,
+    "log": "evidence/repository-history.log"
+  },
+  {
+    "command": "python -m unittest discover -s tests",
+    "exit_code": 0,
+    "seconds": 10.91,
+    "log": "evidence/repository-tests.log"
+  },
+  {
+    "command": "python scripts/manage.py links",
+    "exit_code": 0,
+    "log": "evidence/repository-links.log"
+  }
+]

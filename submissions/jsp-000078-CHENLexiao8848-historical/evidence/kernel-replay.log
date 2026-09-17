@@ -1,0 +1,179 @@
+$ lake env leanchecker -v JSP000078.AttachmentCycles JSP000078.Basic JSP000078.Coloring
+replaying JSP000078.Coloring
+replaying JSP000078.Basic
+replaying JSP000078.AttachmentCycles
+Exit code: 0
+$ lake env leanchecker -v JSP000078.CommonAttachmentCount JSP000078.CommonAttachmentData JSP000078.CommonAttachmentGeometry
+replaying JSP000078.CommonAttachmentGeometry
+replaying JSP000078.CommonAttachmentData
+replaying JSP000078.CommonAttachmentCount
+Exit code: 0
+$ lake env leanchecker -v JSP000078.CommonEdgeNoAdjacent JSP000078.CommonNeighborCount JSP000078.ComplementaryParitySelection
+replaying JSP000078.ComplementaryParitySelection
+replaying JSP000078.CommonNeighborCount
+replaying JSP000078.CommonEdgeNoAdjacent
+Exit code: 0
+$ lake env leanchecker -v JSP000078.CycleArcs JSP000078.CycleCardinality JSP000078.CycleChords
+replaying JSP000078.CycleChords
+replaying JSP000078.CycleCardinality
+replaying JSP000078.CycleArcs
+Exit code: 0
+$ lake env leanchecker -v JSP000078.CycleDistanceCoordinates JSP000078.CycleLinking JSP000078.CyclePositions
+replaying JSP000078.CyclePositions
+replaying JSP000078.CycleLinking
+replaying JSP000078.CycleDistanceCoordinates
+Exit code: 0
+$ lake env leanchecker -v JSP000078.CycleRotationPositions JSP000078.CycleSegments JSP000078.CycleTwoArcLengths
+replaying JSP000078.CycleTwoArcLengths
+replaying JSP000078.CycleSegments
+replaying JSP000078.CycleRotationPositions
+Exit code: 0
+$ lake env leanchecker -v JSP000078.CyclicDistanceRebase JSP000078.CyclicDistanceSets JSP000078.CyclicGapExistence
+replaying JSP000078.CyclicGapExistence
+replaying JSP000078.CyclicDistanceSets
+replaying JSP000078.CyclicDistanceRebase
+Exit code: 0
+$ lake env leanchecker -v JSP000078.CyclicParityCounts JSP000078.DepthFirst JSP000078.DistinctAttachmentsLarge
+replaying JSP000078.DistinctAttachmentsLarge
+replaying JSP000078.DepthFirst
+replaying JSP000078.CyclicParityCounts
+Exit code: 0
+$ lake env leanchecker -v JSP000078.DistinctAttachmentsOne JSP000078.EndpointConfiguration JSP000078.EndpointConfigurationBridge
+replaying JSP000078.EndpointConfigurationBridge
+replaying JSP000078.EndpointConfiguration
+replaying JSP000078.DistinctAttachmentsOne
+Exit code: 0
+$ lake env leanchecker -v JSP000078.EndpointCount JSP000078.EndpointCountArithmetic JSP000078.EndpointCycleData
+replaying JSP000078.EndpointCycleData
+replaying JSP000078.EndpointCountArithmetic
+replaying JSP000078.EndpointCount
+Exit code: 0
+$ lake env leanchecker -v JSP000078.EndpointRoutes JSP000078.EvenCycleFan JSP000078.EvenFanBipartite
+replaying JSP000078.EvenFanBipartite
+replaying JSP000078.EvenCycleFan
+replaying JSP000078.EndpointRoutes
+Exit code: 0
+$ lake env leanchecker -v JSP000078.EvenGapForcesTwo JSP000078.ExtraSmallLengthCount JSP000078.FanBaseCounting
+replaying JSP000078.FanBaseCounting
+replaying JSP000078.ExtraSmallLengthCount
+replaying JSP000078.EvenGapForcesTwo
+Exit code: 0
+$ lake env leanchecker -v JSP000078.FanBasePaths JSP000078.FanCounting JSP000078.FanInternalPaths
+replaying JSP000078.FanInternalPaths
+replaying JSP000078.FanCounting
+replaying JSP000078.FanBasePaths
+Exit code: 0
+$ lake env leanchecker -v JSP000078.FanPathCounting JSP000078.FanPositions JSP000078.FanRectangleBounds
+replaying JSP000078.FanRectangleBounds
+replaying JSP000078.FanPositions
+replaying JSP000078.FanPathCounting
+Exit code: 0
+$ lake env leanchecker -v JSP000078.FanRectanglePaths JSP000078.FanRectangleRealization JSP000078.FanRegions
+replaying JSP000078.FanRegions
+replaying JSP000078.FanRectangleRealization
+replaying JSP000078.FanRectanglePaths
+Exit code: 0
+$ lake env leanchecker -v JSP000078.FanSmallCase JSP000078.GyarfasLemmaEight JSP000078.GyarfasLemmaFive
+replaying JSP000078.GyarfasLemmaFive
+replaying JSP000078.GyarfasLemmaEight
+replaying JSP000078.FanSmallCase
+Exit code: 0
+$ lake env leanchecker -v JSP000078.GyarfasLemmaFour JSP000078.GyarfasLemmaOne JSP000078.GyarfasLemmaSeven
+replaying JSP000078.GyarfasLemmaSeven
+replaying JSP000078.GyarfasLemmaOne
+replaying JSP000078.GyarfasLemmaFour
+Exit code: 0
+$ lake env leanchecker -v JSP000078.GyarfasLemmaThree JSP000078.GyarfasLemmaTwo JSP000078.HistoricalCountingSpec
+replaying JSP000078.HistoricalCountingSpec
+replaying JSP000078.GyarfasLemmaTwo
+replaying JSP000078.GyarfasLemmaThree
+Exit code: 0
+$ lake env leanchecker -v JSP000078.HistoricalExceptionsSpec JSP000078.HistoricalLinking JSP000078.HistoricalPathLengthsSpec
+replaying JSP000078.HistoricalPathLengthsSpec
+replaying JSP000078.HistoricalLinking
+replaying JSP000078.HistoricalExceptionsSpec
+Exit code: 0
+$ lake env leanchecker -v JSP000078.HistoricalSpec JSP000078.HistoricalStructuralSpec JSP000078.HubDistanceData
+replaying JSP000078.HubDistanceData
+replaying JSP000078.HistoricalStructuralSpec
+replaying JSP000078.HistoricalSpec
+Exit code: 0
+$ lake env leanchecker -v JSP000078.HubDistanceRebase JSP000078.HubEvenMinimum JSP000078.HubRigidity
+replaying JSP000078.HubRigidity
+replaying JSP000078.HubEvenMinimum
+replaying JSP000078.HubDistanceRebase
+Exit code: 0
+$ lake env leanchecker -v JSP000078.InitialLinkage JSP000078.Linkage JSP000078.LinkageConnector
+replaying JSP000078.LinkageConnector
+replaying JSP000078.Linkage
+replaying JSP000078.InitialLinkage
+Exit code: 0
+$ lake env leanchecker -v JSP000078.LinkageReroute JSP000078.LongestOddCycle JSP000078.Main
+replaying JSP000078.Main
+replaying JSP000078.LongestOddCycle
+replaying JSP000078.LinkageReroute
+Exit code: 0
+$ lake env leanchecker -v JSP000078.MathlibBridge JSP000078.NearParityExhaustion JSP000078.NormalizedHubRigidity
+replaying JSP000078.NormalizedHubRigidity
+replaying JSP000078.NearParityExhaustion
+replaying JSP000078.MathlibBridge
+Exit code: 0
+$ lake env leanchecker -v JSP000078.NormalizedOddGapClosure JSP000078.OddCycleFan JSP000078.OddCyclePairNeighbors
+replaying JSP000078.OddCyclePairNeighbors
+replaying JSP000078.OddCycleFan
+replaying JSP000078.NormalizedOddGapClosure
+Exit code: 0
+$ lake env leanchecker -v JSP000078.OddCycleSplice JSP000078.OddCycles JSP000078.OddCyclicClosure
+replaying JSP000078.OddCyclicClosure
+replaying JSP000078.OddCycles
+replaying JSP000078.OddCycleSplice
+Exit code: 0
+$ lake env leanchecker -v JSP000078.OneHubPairRigidity JSP000078.OutsideHubData JSP000078.OutsideNeighborPredecessor
+replaying JSP000078.OutsideNeighborPredecessor
+replaying JSP000078.OutsideHubData
+replaying JSP000078.OneHubPairRigidity
+Exit code: 0
+$ lake env leanchecker -v JSP000078.OutsideNeighborSaturation JSP000078.OutsideRoutes JSP000078.OutsideVertexCycles
+replaying JSP000078.OutsideVertexCycles
+replaying JSP000078.OutsideRoutes
+replaying JSP000078.OutsideNeighborSaturation
+Exit code: 0
+$ lake env leanchecker -v JSP000078.Parity JSP000078.PathGluing JSP000078.PathParity
+replaying JSP000078.PathParity
+replaying JSP000078.PathGluing
+replaying JSP000078.Parity
+Exit code: 0
+$ lake env leanchecker -v JSP000078.PathSplit JSP000078.PathSpokes JSP000078.PathSupportBounds
+replaying JSP000078.PathSupportBounds
+replaying JSP000078.PathSpokes
+replaying JSP000078.PathSplit
+Exit code: 0
+$ lake env leanchecker -v JSP000078.PathTrimming JSP000078.RectangleCounting JSP000078.RotatedRimNeighbors
+replaying JSP000078.RotatedRimNeighbors
+replaying JSP000078.RectangleCounting
+replaying JSP000078.PathTrimming
+Exit code: 0
+$ lake env leanchecker -v JSP000078.SaturatedNeighborSet JSP000078.SeparatedSumCounting JSP000078.SharedEdgeConnectorCount
+replaying JSP000078.SharedEdgeConnectorCount
+replaying JSP000078.SeparatedSumCounting
+replaying JSP000078.SaturatedNeighborSet
+Exit code: 0
+$ lake env leanchecker -v JSP000078.SharedEdgeCycle JSP000078.SharedEdgeException JSP000078.SharedEdgeGeometry
+replaying JSP000078.SharedEdgeGeometry
+replaying JSP000078.SharedEdgeException
+replaying JSP000078.SharedEdgeCycle
+Exit code: 0
+$ lake env leanchecker -v JSP000078.SharedEdgeOneLength JSP000078.Sharpness JSP000078.SpanningCycleChords
+replaying JSP000078.SpanningCycleChords
+replaying JSP000078.Sharpness
+replaying JSP000078.SharedEdgeOneLength
+Exit code: 0
+$ lake env leanchecker -v JSP000078.SpokeParityExhaustion JSP000078.TriplePathCounting JSP000078.TwoAttachmentOneLength
+replaying JSP000078.TwoAttachmentOneLength
+replaying JSP000078.TriplePathCounting
+replaying JSP000078.SpokeParityExhaustion
+Exit code: 0
+$ lake env leanchecker -v JSP000078.TwoOutsideVerticesCycle JSP000078.TwoSpokeCycle
+replaying JSP000078.TwoSpokeCycle
+replaying JSP000078.TwoOutsideVerticesCycle
+Exit code: 0

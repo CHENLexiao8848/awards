@@ -1,0 +1,104 @@
+[
+  {
+    "id": "JSP-000078-HIST-axioms-and-types.log",
+    "path": "evidence/axioms-and-types.log",
+    "sha256": "f9707dcb789a9c6c4d9c170572ed891c40e6e398ff193ef1499d5568388684f5",
+    "bytes": 5455
+  },
+  {
+    "id": "JSP-000078-HIST-contribution-delta.json",
+    "path": "evidence/contribution-delta.json",
+    "sha256": "cc366b0b69d1bf53e5d0a574d23cc14c064ccd13935128155da5a88f33e01d7b",
+    "bytes": 4749
+  },
+  {
+    "id": "JSP-000078-HIST-frozen-sources.json",
+    "path": "evidence/frozen-sources.json",
+    "sha256": "48addebd1b42c420f4b09a7961930b305f216cb869c151d5480b87451926816e",
+    "bytes": 18198
+  },
+  {
+    "id": "JSP-000078-HIST-kernel-replay-results.json",
+    "path": "evidence/kernel-replay-results.json",
+    "sha256": "75e42890c6bfe9628f9c1bee397ee58e789bdd2c6cf0830bbb31d288f751b9b3",
+    "bytes": 6537
+  },
+  {
+    "id": "JSP-000078-HIST-kernel-replay.log",
+    "path": "evidence/kernel-replay.log",
+    "sha256": "798cb77f2fbdb8f96169f712246d0b5cd68672f1245bb7aa96f0d57492c19ebe",
+    "bytes": 8368
+  },
+  {
+    "id": "JSP-000078-HIST-lake-build.log",
+    "path": "evidence/lake-build.log",
+    "sha256": "85ad6eb51805d9261879eeec5d5f67f5723f4372ac5d14852d393c6de4ea716d",
+    "bytes": 8440
+  },
+  {
+    "id": "JSP-000078-HIST-main-check.log",
+    "path": "evidence/main-check.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "id": "JSP-000078-HIST-placeholder-scan.txt",
+    "path": "evidence/placeholder-scan.txt",
+    "sha256": "7cd61718175cf51804d2da6fbcb4e1b1aa54d902e3e9ae0d23ad26b39c980e90",
+    "bytes": 367
+  },
+  {
+    "id": "JSP-000078-HIST-repository-build.log",
+    "path": "evidence/repository-build.log",
+    "sha256": "c391b6d4b9adf7d960f401ad1a346744d469edaa1cfddf187e6c4324004dae01",
+    "bytes": 10
+  },
+  {
+    "id": "JSP-000078-HIST-repository-check.log",
+    "path": "evidence/repository-check.log",
+    "sha256": "ad3249b444b1a55ed35b7c507156da9ec158647696fe440b17ff9d90a3e9cd56",
+    "bytes": 10
+  },
+  {
+    "id": "JSP-000078-HIST-repository-checks.json",
+    "path": "evidence/repository-checks.json",
+    "sha256": "5fd85ab3c432505675b3acd1f23a517ada0f3535a52a0070c4f5ebc7f397f5ac",
+    "bytes": 899
+  },
+  {
+    "id": "JSP-000078-HIST-repository-history.log",
+    "path": "evidence/repository-history.log",
+    "sha256": "568ed9c8cc323b4fea33d8599b8846c57cc44e0b9874555f2ce6a8a53dbc94a1",
+    "bytes": 12
+  },
+  {
+    "id": "JSP-000078-HIST-repository-links.log",
+    "path": "evidence/repository-links.log",
+    "sha256": "e221de9f0763035b20e207fa620824584944b786488c20c2a798bd82e6f305d4",
+    "bytes": 10
+  },
+  {
+    "id": "JSP-000078-HIST-repository-tests.log",
+    "path": "evidence/repository-tests.log",
+    "sha256": "d55c769d800c27dc309febee6a54ff44f04b605dfef59a12dcaa67b4d87b1236",
+    "bytes": 122
+  },
+  {
+    "id": "JSP-000078-HIST-repository-validate.log",
+    "path": "evidence/repository-validate.log",
+    "sha256": "12ca74086bb12b155a06bf138e5c804ccf9d9a7826eb350fe4f067578588f832",
+    "bytes": 13
+  },
+  {
+    "id": "JSP-000078-HIST-source-manifest.json",
+    "path": "evidence/source-manifest.json",
+    "sha256": "5afa0f3fc6e90857d13ea1e31bf0fc355dd22854373ce79cbc3488071785cbc3",
+    "bytes": 17723
+  },
+  {
+    "id": "JSP-000078-HIST-verification-summary.json",
+    "path": "evidence/verification-summary.json",
+    "sha256": "a13645b48542a15eb384ad3a2507906e0e8a62c689de63266f73b986dc6c7ff5",
+    "bytes": 738
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "lean_version": "4.34.0",
+  "mathlib_commit": "5ed2965256430c3649e86755f9576b54eca72435",
+  "lean_files": 110,
+  "mathematical_modules_replayed": 107,
+  "kernel_replay_batches": 36,
+  "kernel_replay_result": "pass",
+  "build_jobs": 1622,
+  "build_result": "pass",
+  "main_check": "pass",
+  "audit_check": "pass",
+  "audited_theorems": 12,
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "historical_lemmas_proved": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "historical_remaining": "General Lemma 6 and final global structural assembly",
+  "verification_scope": "Standard Lean kernel; cached pinned upstream dependencies; not an independent checker implementation or official attestation"
+}
